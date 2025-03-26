@@ -48,19 +48,19 @@ const Currencies = {
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('chanle-choose')
-        .setDescription('Choose even or odd and place your bet')
+        .setName('chanle')
+        .setDescription('chẵn lẻ mẹ m đê')
         .addStringOption(option =>
             option.setName('choice')
-                .setDescription('Choose even or odd')
+                .setDescription('chọn chẵn hoặc lẻ')
                 .setRequired(true)
                 .addChoices(
-                    { name: 'Even', value: 'even' },
-                    { name: 'Odd', value: 'odd' }
+                    { name: 'chẵn', value: 'chẵn' },
+                    { name: 'lẻ', value: 'lẻ' }
                 ))
         .addIntegerOption(option =>
-            option.setName('bet')
-                .setDescription('Amount to bet')
+            option.setName('tiền cược')
+                .setDescription('Cúng nhiều vào💵')
                 .setRequired(true)
                 .setMinValue(1)),
 
@@ -73,14 +73,14 @@ module.exports = {
             // Check if user has enough money for the bet
             const userData = await Currencies.getData(user.id);
             if (userData.money < bet) {
-                return await interaction.reply(`You don't have enough money for this bet! Your balance: ${userData.money}$`);
+                return await interaction.reply(`Đéo có tiền có bày đặt chơi: ${userData.money}$`);
             }
             
             // Send processing message
-            await interaction.reply(`${user.username} has chosen ${choice} and bet ${bet}$`);
+            await interaction.reply(`${user.username} đã chọn ${choice} và cược ${bet}$`);
             
             const processingMsg = await interaction.channel.send({
-                content: 'Checking results...',
+                content: 'Chờ tí bộ nặn nhá...',
                 files: [{
                     attachment: 'https://i.imgur.com/P3UEpfF.gif',
                     name: 'processing.gif'
@@ -88,7 +88,7 @@ module.exports = {
             });
             
             // Determine result
-            const choices = ['even', 'odd'];
+            const choices = ['chẵn', 'lẻ'];
             const result = choices[Math.floor(Math.random() * choices.length)];
             
             // Process after 3 seconds
@@ -113,9 +113,9 @@ module.exports = {
                 let resultMessage = `RESULT: ${result.toUpperCase()}\n\n`;
                 
                 if (won) {
-                    resultMessage += `**${user.username} WON ${bet}$!**\n`;
+                    resultMessage += `**${user.username} WON🏆bú cực trôi ${bet}$!**\n`;
                 } else {
-                    resultMessage += `**${user.username} LOST ${bet}$!**\n`;
+                    resultMessage += `**${user.username} LOST😭Cờ bạc là bác thằng đần ${bet}$!**\n`;
                 }
                 
                 resultMessage += `New balance: ${updatedUserData.money}$`;

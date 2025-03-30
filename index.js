@@ -13,7 +13,8 @@ const client = new Client({
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
     GatewayIntentBits.GuildVoiceStates, // Voice states for music functionality
-    GatewayIntentBits.GuildMessageReactions // For message reactions
+    GatewayIntentBits.GuildMessageReactions,
+    GatewayIntentBits.GuildMembers // For message reactions
   ]
 });
 

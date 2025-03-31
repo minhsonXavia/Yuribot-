@@ -1,0 +1,302 @@
+{
+    "cat1": {
+      "name": "Mèo Con",
+      "description": "Mèo nhỏ dễ thương, giúp phát hiện quái vật ẩn náu.",
+      "price": 300,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.2
+      },
+      "imageUrl": "https://placeholder.com/kitten.png"
+    },
+    "dog1": {
+      "name": "Chó Sói Con",
+      "description": "Chó sói con trung thành, giúp bạn chống lại kẻ thù.",
+      "price": 350,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 5
+      },
+      "imageUrl": "https://placeholder.com/wolf-pup.png"
+    },
+    "owl1": {
+      "name": "Cú Mèo",
+      "description": "Cú mèo thông minh, giúp tìm kiếm giá trị cao hơn từ quái vật.",
+      "price": 400,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 10
+      },
+      "imageUrl": "https://placeholder.com/owl.png"
+    },
+    "fairy1": {
+      "name": "Tiên Nhỏ",
+      "description": "Tiên nhỏ với sức mạnh ma thuật, bảo vệ bạn khỏi sát thương.",
+      "price": 800,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 15
+      },
+      "imageUrl": "https://placeholder.com/fairy.png"
+    },
+    "dragon1": {
+      "name": "Rồng Bé",
+      "description": "Rồng con, giúp săn thêm nhiều quái vật hơn.",
+      "price": 1200,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.5
+      },
+      "imageUrl": "https://placeholder.com/baby-dragon.png"
+    },
+    "phoenix1": {
+      "name": "Phượng Hoàng Con",
+      "description": "Phượng hoàng nhỏ, giúp tăng giá trị bán quái vật.",
+      "price": 1500,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 20
+      },
+      "imageUrl": "https://placeholder.com/baby-phoenix.png"
+    },
+    "snake1": {
+      "name": "Rắn Thần",
+      "description": "Rắn thần bí, giảm sát thương từ quái vật.",
+      "price": 600,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 10
+      },
+      "imageUrl": "https://placeholder.com/mystic-snake.png"
+    },
+    "fox1": {
+      "name": "Cáo Chín Đuôi",
+      "description": "Cáo ma thuật với chín đuôi, tăng số lượng quái vật bắt được.",
+      "price": 1000,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.3
+      },
+      "imageUrl": "https://placeholder.com/nine-tailed-fox.png"
+    },
+    "rabbit1": {
+      "name": "Thỏ May Mắn",
+      "description": "Thỏ mang lại may mắn, tăng giá trị bán quái vật.",
+      "price": 550,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 15
+      },
+      "imageUrl": "https://placeholder.com/lucky-rabbit.png"
+    },
+    "turtle1": {
+      "name": "Rùa Cổ Đại",
+      "description": "Rùa với chiếc mai cứng cáp, giảm sát thương từ quái vật.",
+      "price": 700,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 12
+      },
+      "imageUrl": "https://placeholder.com/ancient-turtle.png"
+    },
+    "eagle1": {
+      "name": "Đại Bàng",
+      "description": "Đại bàng dũng mãnh, giúp săn thêm quái vật.",
+      "price": 900,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.4
+      },
+      "imageUrl": "https://placeholder.com/eagle.png"
+    },
+    "monkey1": {
+      "name": "Khỉ Thông Minh",
+      "description": "Khỉ tinh ranh, tăng giá trị bán quái vật.",
+      "price": 650,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 12
+      },
+      "imageUrl": "https://placeholder.com/clever-monkey.png"
+    },
+    "panda1": {
+      "name": "Gấu Trúc",
+      "description": "Gấu trúc đáng yêu nhưng mạnh mẽ, giảm sát thương.",
+      "price": 850,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 14
+      },
+      "imageUrl": "https://placeholder.com/panda.png"
+    },
+    "wolf1": {
+      "name": "Sói Trưởng Thành",
+      "description": "Sói trưởng thành dũng mãnh, tăng số lượng quái vật bắt được.",
+      "price": 950,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.45
+      },
+      "imageUrl": "https://placeholder.com/adult-wolf.png"
+    },
+    "unicorn1": {
+      "name": "Kỳ Lân",
+      "description": "Kỳ lân huyền thoại với sừng ma thuật, tăng giá trị bán quái vật.",
+      "price": 1800,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 25
+      },
+      "imageUrl": "https://placeholder.com/unicorn.png"
+    },
+    "griffin1": {
+      "name": "Sư Tử Đầu Đại Bàng",
+      "description": "Sinh vật huyền thoại, giảm sát thương từ quái vật.",
+      "price": 2000,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 20
+      },
+      "imageUrl": "https://placeholder.com/griffin.png"
+    },
+    "elephant1": {
+      "name": "Voi Chiến",
+      "description": "Voi to lớn mạnh mẽ, tăng số lượng quái vật bắt được.",
+      "price": 1600,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.6
+      },
+      "imageUrl": "https://placeholder.com/war-elephant.png"
+    },
+    "tiger1": {
+      "name": "Hổ Trắng",
+      "description": "Hổ trắng hiếm có, tăng giá trị bán quái vật.",
+      "price": 1400,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 18
+      },
+      "imageUrl": "https://placeholder.com/white-tiger.png"
+    },
+    "bear1": {
+      "name": "Gấu Chiến",
+      "description": "Gấu khổng lồ mạnh mẽ, giảm sát thương từ quái vật.",
+      "price": 1300,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 18
+      },
+      "imageUrl": "https://placeholder.com/war-bear.png"
+    },
+    "lion1": {
+      "name": "Sư Tử Vàng",
+      "description": "Sư tử với bộ lông vàng, tăng số lượng quái vật bắt được.",
+      "price": 1350,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.55
+      },
+      "imageUrl": "https://placeholder.com/golden-lion.png"
+    },
+    "parrot1": {
+      "name": "Vẹt Ma Thuật",
+      "description": "Vẹt với khả năng tìm kiếm kho báu, tăng giá trị bán quái vật.",
+      "price": 1100,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 17
+      },
+      "imageUrl": "https://placeholder.com/magic-parrot.png"
+    },
+    "golem1": {
+      "name": "Golem Nhỏ",
+      "description": "Sinh vật đá nhỏ, giảm sát thương từ quái vật.",
+      "price": 1250,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 16
+      },
+      "imageUrl": "https://placeholder.com/mini-golem.png"
+    },
+    "wolf2": {
+      "name": "Sói Băng",
+      "description": "Sói với bộ lông trắng như tuyết, tăng số lượng quái vật bắt được.",
+      "price": 1450,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.58
+      },
+      "imageUrl": "https://placeholder.com/ice-wolf.png"
+    },
+    "dragon2": {
+      "name": "Rồng Lửa",
+      "description": "Rồng phun lửa mạnh mẽ, tăng giá trị bán quái vật.",
+      "price": 2500,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 30
+      },
+      "imageUrl": "https://placeholder.com/fire-dragon.png"
+    },
+    "cerberus1": {
+      "name": "Khuyển Tam Đầu Con",
+      "description": "Chó ba đầu nhỏ từ địa ngục, giảm sát thương từ quái vật.",
+      "price": 2800,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 25
+      },
+      "imageUrl": "https://placeholder.com/baby-cerberus.png"
+    },
+    "yeti1": {
+      "name": "Người Tuyết",
+      "description": "Người tuyết khổng lồ từ vùng núi băng, tăng số lượng quái vật bắt được.",
+      "price": 2200,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 1.7
+      },
+      "imageUrl": "https://placeholder.com/yeti.png"
+    },
+    "phoenix2": {
+      "name": "Phượng Hoàng Lửa",
+      "description": "Phượng hoàng trưởng thành với lửa rực rỡ, tăng giá trị bán quái vật.",
+      "price": 3000,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 35
+      },
+      "imageUrl": "https://placeholder.com/fire-phoenix.png"
+    },
+    "titan1": {
+      "name": "Titan Nhỏ",
+      "description": "Titan trẻ tuổi với sức mạnh kinh người, giảm sát thương từ quái vật.",
+      "price": 3500,
+      "buff": {
+        "type": "damage_reduction",
+        "value": 30
+      },
+      "imageUrl": "https://placeholder.com/young-titan.png"
+    },
+    "dragon3": {
+      "name": "Rồng Thần",
+      "description": "Rồng cổ xưa với sức mạnh thần thánh, tăng số lượng quái vật bắt được.",
+      "price": 5000,
+      "buff": {
+        "type": "monster_multiplier",
+        "value": 2
+      },
+      "imageUrl": "https://placeholder.com/divine-dragon.png"
+    },
+    "phoenix3": {
+      "name": "Phượng Hoàng Bất Tử",
+      "description": "Phượng hoàng huyền thoại có thể tái sinh, tăng giá trị bán quái vật.",
+      "price": 5000,
+      "buff": {
+        "type": "coin_bonus",
+        "value": 50
+      },
+      "imageUrl": "https://placeholder.com/immortal-phoenix.png"
+    }
+  }

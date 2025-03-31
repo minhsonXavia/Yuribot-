@@ -1,0 +1,114 @@
+{
+    "sword1": {
+      "name": "Kiếm Sắt",
+      "description": "Kiếm sắt cơ bản, tuy đơn giản nhưng khá sắc bén.",
+      "power": 10,
+      "price": 200,
+      "imageUrl": "https://placeholder.com/iron-sword.png"
+    },
+    "sword2": {
+      "name": "Kiếm Thép",
+      "description": "Kiếm thép chắc chắn, tốt hơn kiếm sắt thông thường.",
+      "power": 15,
+      "price": 400,
+      "imageUrl": "https://placeholder.com/steel-sword.png"
+    },
+    "sword3": {
+      "name": "Kiếm Mithril",
+      "description": "Kiếm làm từ kim loại Mithril quý hiếm, rất sắc bén.",
+      "power": 25,
+      "price": 800,
+      "imageUrl": "https://placeholder.com/mithril-sword.png"
+    },
+    "sword4": {
+      "name": "Kiếm Rồng",
+      "description": "Kiếm được rèn từ vảy rồng, có sức mạnh phi thường.",
+      "power": 40,
+      "price": 1500,
+      "imageUrl": "https://placeholder.com/dragon-sword.png"
+    },
+    "axe1": {
+      "name": "Rìu Chiến",
+      "description": "Rìu chiến nặng nề nhưng gây sát thương lớn.",
+      "power": 18,
+      "price": 450,
+      "imageUrl": "https://placeholder.com/battle-axe.png"
+    },
+    "axe2": {
+      "name": "Rìu Hai Lưỡi",
+      "description": "Rìu hai lưỡi sắc bén, vũ khí ưa thích của các chiến binh.",
+      "power": 28,
+      "price": 900,
+      "imageUrl": "https://placeholder.com/double-axe.png"
+    },
+    "axe3": {
+      "name": "Rìu Hỏa Ngục",
+      "description": "Rìu với lưỡi đỏ rực như lửa địa ngục, cực kỳ nguy hiểm.",
+      "power": 45,
+      "price": 1800,
+      "imageUrl": "https://placeholder.com/inferno-axe.png"
+    },
+    "hammer1": {
+      "name": "Búa Chiến",
+      "description": "Búa nặng dùng để đập tan giáp của kẻ thù.",
+      "power": 20,
+      "price": 500,
+      "imageUrl": "https://placeholder.com/war-hammer.png"
+    },
+    "hammer2": {
+      "name": "Búa Sấm Sét",
+      "description": "Búa có khả năng tạo ra sấm sét khi đập xuống.",
+      "power": 35,
+      "price": 1300,
+      "imageUrl": "https://placeholder.com/thunder-hammer.png"
+    },
+    "hammer3": {
+      "name": "Búa Thần",
+      "description": "Búa của các vị thần, chỉ người xứng đáng mới nâng được.",
+      "power": 50,
+      "price": 2000,
+      "imageUrl": "https://placeholder.com/god-hammer.png"
+    },
+    "spear1": {
+      "name": "Giáo Săn",
+      "description": "Giáo dài dùng để săn thú, tầm đánh xa.",
+      "power": 12,
+      "price": 300,
+      "imageUrl": "https://placeholder.com/hunting-spear.png"
+    },
+    "spear2": {
+      "name": "Giáo Long Xà",
+      "description": "Giáo với lưỡi cong như rắn, gây sát thương lớn.",
+      "power": 22,
+      "price": 700,
+      "imageUrl": "https://placeholder.com/serpent-spear.png"
+    },
+    "spear3": {
+      "name": "Giáo Thủy Triều",
+      "description": "Giáo với sức mạnh của đại dương, có thể gây bão tố.",
+      "power": 38,
+      "price": 1400,
+      "imageUrl": "https://placeholder.com/tide-spear.png"
+    },
+    "dagger1": {
+      "name": "Dao Găm",
+      "description": "Dao nhỏ nhưng sắc bén, dễ giấu và nhanh.",
+      "power": 8,
+      "price": 150,
+      "imageUrl": "https://placeholder.com/dagger.png"
+    },
+    "dagger2": {
+      "name": "Dao Độc",
+      "description": "Dao tẩm độc, gây sát thương thêm theo thời gian.",
+      "power": 16,
+      "price": 500,
+      "imageUrl": "https://placeholder.com/poison-dagger.png"
+    },
+    "dagger3": {
+      "name": "Dao Bóng Đêm",
+      "description": "Dao của sát thủ, im lặng và chết người.",
+      "power": 30,
+      "price": 1100,
+      "imageUrl": "https://placeholder.com/shadow-dagger.png"
+    }
+}

@@ -1,0 +1,234 @@
+{
+    "slime1": {
+      "name": "Slime Nhỏ",
+      "description": "Một con slime nhỏ màu xanh, rất phổ biến trong rừng.",
+      "damage": 10,
+      "difficulty": 1,
+      "value": 20,
+      "imageUrl": "https://placeholder.com/slime-small.png"
+    },
+    "slime2": {
+      "name": "Slime Lớn",
+      "description": "Slime lớn màu xanh dương, có thể nuốt chửng vật nhỏ.",
+      "damage": 20,
+      "difficulty": 2,
+      "value": 40,
+      "imageUrl": "https://placeholder.com/slime-large.png"
+    },
+    "bat1": {
+      "name": "Dơi Hút Máu",
+      "description": "Loài dơi nhỏ thích hút máu của những người phiêu lưu.",
+      "damage": 15,
+      "difficulty": 1,
+      "value": 25,
+      "imageUrl": "https://placeholder.com/vampire-bat.png"
+    },
+    "wolf1": {
+      "name": "Sói Xám",
+      "description": "Sói xám hoang dã, săn mồi theo bầy đàn.",
+      "damage": 30,
+      "difficulty": 3,
+      "value": 60,
+      "imageUrl": "https://placeholder.com/gray-wolf.png"
+    },
+    "spider1": {
+      "name": "Nhện Độc",
+      "description": "Nhện với nọc độc gây tê liệt tạm thời.",
+      "damage": 25,
+      "difficulty": 2,
+      "value": 45,
+      "imageUrl": "https://placeholder.com/poison-spider.png"
+    },
+    "goblin1": {
+      "name": "Goblin Lính",
+      "description": "Goblin thấp bé với vũ khí thô sơ.",
+      "damage": 20,
+      "difficulty": 2,
+      "value": 50,
+      "imageUrl": "https://placeholder.com/goblin-soldier.png"
+    },
+    "goblin2": {
+      "name": "Goblin Trưởng Làng",
+      "description": "Goblin to lớn hơn, chỉ huy của làng Goblin.",
+      "damage": 40,
+      "difficulty": 4,
+      "value": 100,
+      "imageUrl": "https://placeholder.com/goblin-chief.png"
+    },
+    "skeleton1": {
+      "name": "Bộ Xương Binh Sĩ",
+      "description": "Bộ hài cốt của binh sĩ đã khuất, được hồi sinh bởi phép thuật đen.",
+      "damage": 35,
+      "difficulty": 3,
+      "value": 70,
+      "imageUrl": "https://placeholder.com/skeleton-soldier.png"
+    },
+    "zombie1": {
+      "name": "Xác Sống",
+      "description": "Thi thể người đã chết hồi sinh, di chuyển chậm nhưng rất nguy hiểm.",
+      "damage": 25,
+      "difficulty": 2,
+      "value": 55,
+      "imageUrl": "https://placeholder.com/zombie.png"
+    },
+    "troll1": {
+      "name": "Troll Hang Động",
+      "description": "Sinh vật to lớn sống trong hang động tối tăm.",
+      "damage": 50,
+      "difficulty": 5,
+      "value": 120,
+      "imageUrl": "https://placeholder.com/cave-troll.png"
+    },
+    "ghost1": {
+      "name": "Hồn Ma",
+      "description": "Linh hồn không thể siêu thoát, đầy oán giận.",
+      "damage": 30,
+      "difficulty": 3,
+      "value": 65,
+      "imageUrl": "https://placeholder.com/ghost.png"
+    },
+    "harpy1": {
+      "name": "Harpy",
+      "description": "Sinh vật nửa người nửa chim, tấn công từ trên không.",
+      "damage": 35,
+      "difficulty": 3,
+      "value": 75,
+      "imageUrl": "https://placeholder.com/harpy.png"
+    },
+    "minotaur1": {
+      "name": "Minotaur",
+      "description": "Quái vật nửa người nửa bò, rất hung hăng và mạnh mẽ.",
+      "damage": 60,
+      "difficulty": 6,
+      "value": 150,
+      "imageUrl": "https://placeholder.com/minotaur.png"
+    },
+    "dragon1": {
+      "name": "Rồng Con",
+      "description": "Rồng non chưa trưởng thành, nhưng vẫn rất nguy hiểm.",
+      "damage": 70,
+      "difficulty": 7,
+      "value": 200,
+      "imageUrl": "https://placeholder.com/young-dragon.png"
+    },
+    "plant1": {
+      "name": "Cây Ăn Thịt",
+      "description": "Loài thực vật ăn thịt với những cái xúc tu chết người.",
+      "damage": 25,
+      "difficulty": 2,
+      "value": 50,
+      "imageUrl": "https://placeholder.com/carnivorous-plant.png"
+    },
+    "golem1": {
+      "name": "Golem Đá",
+      "description": "Sinh vật được tạo ra từ đá, rất cứng cáp và khó bị đánh bại.",
+      "damage": 45,
+      "difficulty": 5,
+      "value": 110,
+      "imageUrl": "https://placeholder.com/stone-golem.png"
+    },
+    "elemental1": {
+      "name": "Tinh Linh Lửa",
+      "description": "Sinh vật được tạo hoàn toàn từ lửa, gây bỏng nặng khi chạm vào.",
+      "damage": 40,
+      "difficulty": 4,
+      "value": 90,
+      "imageUrl": "https://placeholder.com/fire-elemental.png"
+    },
+    "elemental2": {
+      "name": "Tinh Linh Nước",
+      "description": "Sinh vật được tạo hoàn toàn từ nước, có thể thay đổi hình dạng.",
+      "damage": 35,
+      "difficulty": 3,
+      "value": 80,
+      "imageUrl": "https://placeholder.com/water-elemental.png"
+    },
+    "ogre1": {
+      "name": "Ogre",
+      "description": "Người khổng lồ dữ tợn với sức mạnh vượt trội.",
+      "damage": 55,
+      "difficulty": 5,
+      "value": 130,
+      "imageUrl": "https://placeholder.com/ogre.png"
+    },
+    "cobra1": {
+      "name": "Rắn Hổ Mang Khổng Lồ",
+      "description": "Loài rắn khổng lồ với nọc độc chết người.",
+      "damage": 45,
+      "difficulty": 4,
+      "value": 95,
+      "imageUrl": "https://placeholder.com/giant-cobra.png"
+    },
+    "scorpion1": {
+      "name": "Bọ Cạp Khổng Lồ",
+      "description": "Bọ cạp to lớn với nọc độc mạnh.",
+      "damage": 40,
+      "difficulty": 4,
+      "value": 85,
+      "imageUrl": "https://placeholder.com/giant-scorpion.png"
+    },
+    "bandit1": {
+      "name": "Cướp Biển",
+      "description": "Kẻ cướp biển với nhiều vũ khí nguy hiểm.",
+      "damage": 30,
+      "difficulty": 3,
+      "value": 70,
+      "imageUrl": "https://placeholder.com/bandit.png"
+    },
+    "werewolf1": {
+      "name": "Người Sói",
+      "description": "Người biến thành sói dưới ánh trăng, rất hung dữ.",
+      "damage": 50,
+      "difficulty": 5,
+      "value": 115,
+      "imageUrl": "https://placeholder.com/werewolf.png"
+    },
+    "vampire1": {
+      "name": "Ma Cà Rồng",
+      "description": "Sinh vật hút máu với sức mạnh siêu nhiên.",
+      "damage": 55,
+      "difficulty": 6,
+      "value": 140,
+      "imageUrl": "https://placeholder.com/vampire.png"
+    },
+    "lich1": {
+      "name": "Pháp Sư Linh Hồn",
+      "description": "Pháp sư đã chết nhưng vẫn sống nhờ phép thuật hắc ám.",
+      "damage": 65,
+      "difficulty": 7,
+      "value": 180,
+      "imageUrl": "https://placeholder.com/lich.png"
+    },
+    "cerberus1": {
+      "name": "Khuyển Tam Đầu",
+      "description": "Chó ba đầu bảo vệ cổng địa ngục.",
+      "damage": 75,
+      "difficulty": 8,
+      "value": 220,
+      "imageUrl": "https://placeholder.com/cerberus.png"
+    },
+    "phoenix1": {
+      "name": "Phượng Hoàng Lửa",
+      "description": "Chim lửa huyền thoại, có khả năng tái sinh từ tro tàn.",
+      "damage": 80,
+      "difficulty": 8,
+      "value": 250,
+      "imageUrl": "https://placeholder.com/phoenix.png"
+    },
+    "hydra1": {
+      "name": "Thủy Quái Bảy Đầu",
+      "description": "Quái vật nhiều đầu, khi chặt một đầu sẽ mọc ra hai đầu khác.",
+      "damage": 90,
+      "difficulty": 9,
+      "value": 300,
+      "imageUrl": "https://placeholder.com/hydra.png"
+    },
+    "dragon2": {
+      "name": "Rồng Cổ Đại",
+      "description": "Rồng khổng lồ đã sống hàng nghìn năm, cực kỳ mạnh mẽ.",
+      "damage": 100,
+      "difficulty": 10,
+      "value": 500,
+      "imageUrl": "https://placeholder.com/ancient-dragon.png"
+    }
+  }

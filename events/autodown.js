@@ -10,13 +10,13 @@ const streamPipeline = promisify(require('stream').pipeline);
 module.exports = {
   name: Events.MessageCreate,
   async execute(message) {
-    // Ignore bot messages
+  
     if (message.author.bot) return;
-    
-    // Get the content and check for URLs
+    //LƯU Ý NẾU QUÁ NẶNG THÌ SẼ KHÔNG GỬI ĐƯỢC LÊN DISCORD VÀ TẠO THƯ MỤC /TEMP ĐỂ BOT LƯU ĐẤY NHÁ//
+                       ///CONVERT TỪ MESS//
     const content = message.content;
     
-    // Define regex patterns for different platforms
+  
     const regEx_tiktok = /(^https:\/\/)((vm|vt|www|v)\.)?(tiktok|douyin)\.com\//;
     const regEx_youtube = /(^https:\/\/)((www)\.)?(youtube|youtu)(PP)*\.(com|be)\//;
     const regEx_facebook = /(^https:\/\/)(\w+\.)?(facebook|fb)\.(com|watch)\/((story\.php|page\.\w+)(\?|\/))?(story_fbid=|\w+\/)/;
@@ -27,10 +27,10 @@ module.exports = {
     const regEx_capcut = /(^https:\/\/)((www)\.)?(capcut)\.(com)\//;
     const regEx_twitter = /(^https:\/\/)((www|mobile|web)\.)?(twitter|x)\.(com)\//;
     
-    // Stores download info for reactions
+
     const downloadInfo = new Map();
     
-    // Function to convert seconds to HH:MM:SS format
+ 
     function convertSecondsToHMS(seconds) {
       const hours = String(Math.floor(seconds / 3600)).padStart(2, '0');
       const minutes = String(Math.floor((seconds % 3600) / 60)).padStart(2, '0');
@@ -38,7 +38,7 @@ module.exports = {
       return `${hours}:${minutes}:${remainingSeconds}`;
     }
     
-    // Function to download the resource and return an attachment
+
     async function downloadResource(url, filename) {
       const tempPath = path.join(__dirname, '..', 'temp', filename);
       const response = await axios({
@@ -76,17 +76,17 @@ module.exports = {
           files: attachments
         });
         
-        // Store music URL for reaction handler
+
         downloadInfo.set(botMsg.id, {
           url: data.music,
           type: 'audio',
           user: message.author.id
         });
         
-        // Add the reaction for user to click
+
         await botMsg.react('✅');
         
-        // Set up reaction collector
+
         const filter = (reaction, user) => {
           return reaction.emoji.name === '✅' && user.id === message.author.id;
         };
@@ -114,7 +114,7 @@ module.exports = {
       }
     }
     
-    // YouTube Handler
+
     else if (regEx_youtube.test(content)) {
       try {
         const info = await ytdl.getInfo(content);
@@ -136,7 +136,7 @@ module.exports = {
           files: [videoAttachment]
         });
         
-        // Store audio URL for reaction handler
+    
         downloadInfo.set(botMsg.id, {
           url: content,
           format: formatmp3,
@@ -185,10 +185,10 @@ module.exports = {
       }
     }
     
-    // Twitter/X Handler
+
     else if (regEx_twitter.test(content)) {
       try {
-        // You'd need to replace this with your actual Twitter API integration
+       
         const response = await axios.get(`https://api.example.com/twitter-dl?url=${content}`);
         const data = response.data.result;
         
@@ -209,7 +209,7 @@ module.exports = {
         
         await botMsg.react('✅');
         
-        // Set up reaction collector
+  
         const filter = (reaction, user) => {
           return reaction.emoji.name === '✅' && user.id === message.author.id;
         };
@@ -238,31 +238,30 @@ module.exports = {
       }
     }
     
-    // Add handlers for other platforms (Facebook, Instagram, etc.)
-    // using similar patterns as above
+   
     
-    // Facebook Handler (simplified)
+    
     else if (regEx_facebook.test(content) || regEx_reelfb.test(content) || regEx_fbwatch.test(content)) {
       message.reply("Facebook video download functionality detected. Implementation requires Facebook API credentials.");
-      // Full implementation would be similar to the TikTok and YouTube handlers
+      
     }
     
-    // Instagram Handler (simplified)
+  
     else if (regEx_instagram.test(content)) {
       message.reply("Instagram content download functionality detected. Implementation requires Instagram API integration.");
-      // Full implementation would be similar to the TikTok and YouTube handlers
+      
     }
     
-    // Threads Handler (simplified)
+    
     else if (regEx_threads.test(content)) {
       message.reply("Threads content download functionality detected. Implementation requires API integration.");
-      // Full implementation would be similar to the TikTok and YouTube handlers
+     
     }
     
-    // CapCut Handler (simplified)
+    // CapCut 
     else if (regEx_capcut.test(content)) {
       message.reply("CapCut template download functionality detected. Implementation requires API integration.");
-      // Full implementation would be similar to the TikTok and YouTube handlers
+      
     }
   }
 };

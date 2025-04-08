@@ -1,0 +1,19 @@
+{
+    "name": "lamminhson_92755",
+    "ID": "1306552024568959016",
+    "shield": 3,
+    "coins": 199930000,
+    "attack": 29999,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 1,
+            "tree": 0,
+            "pool": 0,
+            "pet": 1
+        }
+    },
+    "spin": 2000050,
+    "timeRegister": "4/7/2025, 3:48:00 PM"
+}

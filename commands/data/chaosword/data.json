@@ -1,0 +1,482 @@
+[
+    {
+        "ID": 0,
+        "difficultRank": 3,
+        "modeDifficulty": 1,
+        "answer": "day"
+    },
+    {
+        "ID": 1,
+        "difficultRank": 3,
+        "modeDifficulty": 1,
+        "answer": "run"
+    },
+    {
+        "ID": 2,
+        "difficultRank": 4,
+        "modeDifficulty": 1,
+        "answer": "week"
+    },
+    {
+        "ID": 3,
+        "difficultRank": 4,
+        "modeDifficulty": 1,
+        "answer": "hate"
+    },
+    {
+        "ID": 4,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "danger"
+    },
+    {
+        "ID": 5,
+        "difficultRank": 3,
+        "modeDifficulty": 1,
+        "answer": "dig"
+    },
+    {
+        "ID": 6,
+        "difficultRank": 4,
+        "modeDifficulty": 1,
+        "answer": "cold"
+    },
+    {
+        "ID": 7,
+        "difficultRank": 5,
+        "modeDifficulty": 1,
+        "answer": "plant"
+    },
+    {
+        "ID": 8,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "heaven"
+    },
+    {
+        "ID": 9,
+        "difficultRank": 5,
+        "modeDifficulty": 1,
+        "answer": "pupil"
+    },
+    {
+        "ID": 10,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "sturdy"
+    },
+    {
+        "ID": 11,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "fossil"
+    },
+    {
+        "ID": 12,
+        "difficultRank": 4,
+        "modeDifficulty": 1,
+        "answer": "coal"
+    },
+    {
+        "ID": 13,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "sturdy"
+    },
+    {
+        "ID": 14,
+        "difficultRank": 5,
+        "modeDifficulty": 1,
+        "answer": "clean"
+    },
+    {
+        "ID": 15,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "tragic"
+    },
+    {
+        "ID": 16,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "trauma"
+    },
+    {
+        "ID": 17,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "damage"
+    },
+    {
+        "ID": 18,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "attack"
+    },
+    {
+        "ID": 19,
+        "difficultRank": 6,
+        "modeDifficulty": 1,
+        "answer": "violin"
+    },
+    {
+        "ID": 20,
+        "difficultRank": 8,
+        "modeDifficulty": 2,
+        "answer": "humidity"
+    },
+    {
+        "ID": 21,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "intensive"
+    },
+    {
+        "ID": 22,
+        "difficultRank": 10,
+        "modeDifficulty": 2,
+        "answer": "rhythmatic"
+    },
+    {
+        "ID": 23,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "happiness"
+    },
+    {
+        "ID": 24,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "beautiful"
+    },
+    {
+        "ID": 25,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "scavenger"
+    },
+    {
+        "ID": 26,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "vengeance"
+    },
+    {
+        "ID": 27,
+        "difficultRank": 8,
+        "modeDifficulty": 2,
+        "answer": "swordman"
+    },
+    {
+        "ID": 28,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "artillery"
+    },
+    {
+        "ID": 29,
+        "difficultRank": 8,
+        "modeDifficulty": 2,
+        "answer": "howitzer"
+    },
+    {
+        "ID": 30,
+        "difficultRank": 7,
+        "modeDifficulty": 2,
+        "answer": "implant"
+    },
+    {
+        "ID": 31,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "apartment"
+    },
+    {
+        "ID": 32,
+        "difficultRank": 8,
+        "modeDifficulty": 2,
+        "answer": "internet"
+    },
+    {
+        "ID": 33,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "explosion"
+    },
+    {
+        "ID": 34,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "notorious"
+    },
+    {
+        "ID": 35,
+        "difficultRank": 10,
+        "modeDifficulty": 2,
+        "answer": "exhibition"
+    },
+    {
+        "ID": 36,
+        "difficultRank": 10,
+        "modeDifficulty": 2,
+        "answer": "creativity"
+    },
+    {
+        "ID": 37,
+        "difficultRank": 9,
+        "modeDifficulty": 2,
+        "answer": "implosion"
+    },
+    {
+        "ID": 38,
+        "difficultRank": 10,
+        "modeDifficulty": 2,
+        "answer": "department"
+    },
+    {
+        "ID": 39,
+        "difficultRank": 8,
+        "modeDifficulty": 2,
+        "answer": "aquarium"
+    },
+    {
+        "ID": 40,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "responsible"
+    },
+    {
+        "ID": 41,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "nationality"
+    },
+    {
+        "ID": 42,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "deforestation"
+    },
+    {
+        "ID": 43,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "luminescence"
+    },
+    {
+        "ID": 44,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "international"
+    },
+    {
+        "ID": 45,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "annihilation"
+    },
+    {
+        "ID": 46,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "consumption"
+    },
+    {
+        "ID": 47,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "cancellation"
+    },
+    {
+        "ID": 48,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "archaeology"
+    },
+    {
+        "ID": 49,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "archaeologist"
+    },
+    {
+        "ID": 50,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "archaeology"
+    },
+    {
+        "ID": 51,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "purification"
+    },
+    {
+        "ID": 52,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "comparability"
+    },
+    {
+        "ID": 53,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "termination"
+    },
+    {
+        "ID": 54,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "acidification"
+    },
+    {
+        "ID": 55,
+        "difficultRank": 13,
+        "modeDifficulty": 3,
+        "answer": "globalization"
+    },
+    {
+        "ID": 56,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "homogeneous"
+    },
+    {
+        "ID": 57,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "hypertension"
+    },
+    {
+        "ID": 58,
+        "difficultRank": 12,
+        "modeDifficulty": 3,
+        "answer": "overwhelming"
+    },
+    {
+        "ID": 59,
+        "difficultRank": 11,
+        "modeDifficulty": 3,
+        "answer": "subjugation"
+    },
+    {
+        "ID": 60,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "intercontinental"
+    },
+    {
+        "ID": 61,
+        "difficultRank": 16,
+        "modeDifficulty": 3,
+        "answer": "ultranationalism"
+    },
+    {
+        "ID": 62,
+        "difficultRank": 18,
+        "modeDifficulty": 4,
+        "answer": "conceptualizations"
+    },
+    {
+        "ID": 63,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "objectification"
+    },
+    {
+        "ID": 64,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "characteristics"
+    },
+    {
+        "ID": 65,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "instrumentality"
+    },
+    {
+        "ID": 66,
+        "difficultRank": 17,
+        "modeDifficulty": 4,
+        "answer": "infrahumanization"
+    },
+    {
+        "ID": 67,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "pseudospeciation"
+    },
+    {
+        "ID": 68,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "anthropocentrism"
+    },
+    {
+        "ID": 69,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "environmentalist"
+    },
+    {
+        "ID": 70,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "meaninglessness"
+    },
+    {
+        "ID": 71,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "phenomenological"
+    },
+    {
+        "ID": 72,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "musculoskeletal"
+    },
+    {
+        "ID": 73,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "neurobehavioral"
+    },
+    {
+        "ID": 74,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "pheochromocytoma"
+    },
+    {
+        "ID": 75,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "cerebrovascular"
+    },
+    {
+        "ID": 76,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "atherosclerosis"
+    },
+    {
+        "ID": 77,
+        "difficultRank": 15,
+        "modeDifficulty": 4,
+        "answer": "musculoskeletal"
+    },
+    {
+        "ID": 78,
+        "difficultRank": 16,
+        "modeDifficulty": 4,
+        "answer": "hyperinsulinemia"
+    },
+    {
+        "ID": 79,
+        "difficultRank": 18,
+        "modeDifficulty": 4,
+        "answer": "metabolic syndrome"
+    }
+]

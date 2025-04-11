@@ -1,0 +1,73 @@
+{
+  "1306552024568959016": {
+    "id": "1306552024568959016",
+    "name": "Player1",
+    "stage": 1000,
+    "stageName": "Luyện Khí",
+    "exp": 120350,
+    "stones": 10200,
+    "power": 1000,
+    "spirit": 100000,
+    "speed": 123.3,
+    "weapons": [],
+    "artifacts": [],
+    "skills": [],
+    "completedMissions": [
+      {
+        "id": "d1",
+        "timestamp": 1744266651670
+      }
+    ],
+    "cooldowns": {
+      "cultivation": 0,
+      "missions": 1744266651670,
+      "battle": 1744266617192,
+      "event": 1744328515438
+    },
+    "lastLogin": 1712731620000,
+    "stats": {
+      "cultivationTimes": 2,
+      "breakthroughSuccesses": 0,
+      "breakthroughFailures": 0,
+      "monstersDefeated": 0,
+      "bossesDefeated": 1,
+      "missionsCompleted": 1,
+      "itemsPurchased": 1
+    },
+    "items": [
+      "dot-pha-dan",
+      "dot-pha-dan"
+    ]
+  },
+  "1335163724138545182": {
+    "id": "1335163724138545182",
+    "name": "huuminh012",
+    "stage": 0,
+    "stageName": "Luyện Khí",
+    "exp": 50,
+    "stones": 100,
+    "power": 20,
+    "spirit": 20,
+    "speed": 2,
+    "weapons": [],
+    "artifacts": [],
+    "skills": [],
+    "completedMissions": [],
+    "cooldowns": {
+      "cultivation": 1744373324378,
+      "missions": 0,
+      "battle": 0,
+      "event": 0
+    },
+    "lastLogin": 1744327663303,
+    "stats": {
+      "cultivationTimes": 1,
+      "breakthroughSuccesses": 0,
+      "breakthroughFailures": 0,
+      "monstersDefeated": 0,
+      "bossesDefeated": 0,
+      "missionsCompleted": 0,
+      "itemsPurchased": 0
+    }
+  }
+}

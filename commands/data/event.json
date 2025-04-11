@@ -1,0 +1,28 @@
+{
+    "eventChance": 10,
+    "events": [
+      {
+        "id": "e1",
+        "name": "Kỳ ngộ Linh Hồ",
+        "description": "Bạn gặp một Linh Hồ cổ đại.",
+        "choices": [
+          {
+            "text": "Chào hỏi lịch sự",
+            "reward": {
+              "exp": 100,
+              "stones": 50
+            }
+          },
+          {
+            "text": "Tấn công giành bảo vật",
+            "reward": {
+              "type": "risky",
+              "exp": 200,
+              "stones": 100
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

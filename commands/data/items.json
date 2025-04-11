@@ -1,0 +1,28 @@
+{
+    "weapons": [
+      {
+        "id": "kiem-lua",
+        "name": "Kiếm Lửa",
+        "power": 20,
+        "price": 150
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "phap-an-tang-exp",
+        "name": "Pháp Ấn Tăng EXP",
+        "effect": "exp_boost",
+        "value": 20,
+        "price": 200
+      }
+    ],
+    "consumables": [
+      {
+        "id": "dot-pha-dan",
+        "name": "Đột Phá Đan",
+        "effect": "dung_de_dot_pha",
+        "price": 100
+      }
+    ]
+  }
+  

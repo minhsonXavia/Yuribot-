@@ -1,28 +1,2227 @@
 {
-    "eventChance": 10,
-    "events": [
-      {
-        "id": "e1",
-        "name": "Kỳ ngộ Linh Hồ",
-        "description": "Bạn gặp một Linh Hồ cổ đại.",
-        "choices": [
-          {
-            "text": "Chào hỏi lịch sự",
-            "reward": {
-              "exp": 100,
-              "stones": 50
-            }
-          },
-          {
-            "text": "Tấn công giành bảo vật",
-            "reward": {
-              "type": "risky",
-              "exp": 200,
-              "stones": 100
-            }
+  "eventChance": 10,
+  "events": [
+    {
+      "id": "e1",
+      "name": "Kỳ ngộ Linh Hồ",
+      "description": "Bạn gặp một Linh Hồ cổ đại.",
+      "choices": [
+        {
+          "text": "Chào hỏi lịch sự",
+          "reward": {
+            "exp": 100,
+            "stones": 50
           }
-        ]
-      }
-    ]
-  }
-  
+        },
+        {
+          "text": "Tấn công giành bảo vật",
+          "reward": {
+            "type": "risky",
+            "exp": 200,
+            "stones": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "name": "Hồ Tiên Ẩn Hiện 2",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 195,
+            "stones": 51
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 248,
+            "stones": 93
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "name": "Ảo Cảnh Dị Thường 3",
+      "description": "Một phong ấn cổ đại bắt đầu rung động khi bạn đến gần.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 134,
+            "stones": 74
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 155,
+            "stones": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "e4",
+      "name": "Ảo Cảnh Dị Thường 4",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 85,
+            "stones": 75
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 128,
+            "stones": 134
+          }
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "name": "Ảo Cảnh Dị Thường 5",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 73,
+            "stones": 21
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 105,
+            "stones": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "name": "Chiến Trường Cổ 6",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 182,
+            "stones": 72
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 150,
+            "stones": 120
+          }
+        }
+      ]
+    },
+    {
+      "id": "e7",
+      "name": "Mảnh Thiên Thạch Rơi 7",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 166,
+            "stones": 52
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 134,
+            "stones": 82
+          }
+        }
+      ]
+    },
+    {
+      "id": "e8",
+      "name": "Thần Mộc Tàn Tích 8",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 60,
+            "stones": 43
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 177,
+            "stones": 65
+          }
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "name": "Mảnh Thiên Thạch Rơi 9",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 137,
+            "stones": 89
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 267,
+            "stones": 68
+          }
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "name": "Hồ Tiên Ẩn Hiện 10",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 177,
+            "stones": 36
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 160,
+            "stones": 58
+          }
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "name": "Linh Tuyền Tràn Ra 11",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 108,
+            "stones": 79
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 147,
+            "stones": 141
+          }
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "name": "Mảnh Thiên Thạch Rơi 12",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 133,
+            "stones": 62
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 104,
+            "stones": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "name": "Chiến Trường Cổ 13",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 62,
+            "stones": 73
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 261,
+            "stones": 119
+          }
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "name": "Linh Tuyền Tràn Ra 14",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 66,
+            "stones": 39
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 288,
+            "stones": 77
+          }
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "name": "Kỳ Thú Thần Bí 15",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 74,
+            "stones": 48
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 227,
+            "stones": 77
+          }
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "name": "Gặp Gỡ Luyện Dược Sư 16",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 91,
+            "stones": 29
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 265,
+            "stones": 137
+          }
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "name": "Gặp Gỡ Luyện Dược Sư 17",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 82,
+            "stones": 64
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 168,
+            "stones": 95
+          }
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "name": "Chiến Trường Cổ 18",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 75,
+            "stones": 84
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 190,
+            "stones": 87
+          }
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "name": "Mảnh Thiên Thạch Rơi 19",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 133,
+            "stones": 47
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 264,
+            "stones": 148
+          }
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "name": "Chiến Trường Cổ 20",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 90,
+            "stones": 41
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 248,
+            "stones": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "name": "Phong Ấn Cổ Đại 21",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 79,
+            "stones": 93
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 166,
+            "stones": 97
+          }
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "name": "Linh Tuyền Tràn Ra 22",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 158,
+            "stones": 47
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 195,
+            "stones": 135
+          }
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "name": "Mảnh Thiên Thạch Rơi 23",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 85,
+            "stones": 24
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 184,
+            "stones": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "name": "Chiến Trường Cổ 24",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 70,
+            "stones": 66
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 291,
+            "stones": 132
+          }
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "name": "Gặp Gỡ Luyện Dược Sư 25",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 71,
+            "stones": 41
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 159,
+            "stones": 104
+          }
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "name": "Ảo Cảnh Dị Thường 26",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 184,
+            "stones": 99
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 219,
+            "stones": 58
+          }
+        }
+      ]
+    },
+    {
+      "id": "e27",
+      "name": "Mảnh Thiên Thạch Rơi 27",
+      "description": "Một ảo ảnh kỳ lạ che phủ cả khu vực.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 105,
+            "stones": 86
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 274,
+            "stones": 124
+          }
+        }
+      ]
+    },
+    {
+      "id": "e28",
+      "name": "Gặp Gỡ Luyện Dược Sư 28",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 62,
+            "stones": 80
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 121,
+            "stones": 81
+          }
+        }
+      ]
+    },
+    {
+      "id": "e29",
+      "name": "Phong Ấn Cổ Đại 29",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 69,
+            "stones": 78
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 224,
+            "stones": 133
+          }
+        }
+      ]
+    },
+    {
+      "id": "e30",
+      "name": "Ảo Cảnh Dị Thường 30",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 118,
+            "stones": 60
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 103,
+            "stones": 94
+          }
+        }
+      ]
+    },
+    {
+      "id": "e31",
+      "name": "Chiến Trường Cổ 31",
+      "description": "Một phong ấn cổ đại bắt đầu rung động khi bạn đến gần.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 107,
+            "stones": 27
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 144,
+            "stones": 121
+          }
+        }
+      ]
+    },
+    {
+      "id": "e32",
+      "name": "Chiến Trường Cổ 32",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 196,
+            "stones": 79
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 295,
+            "stones": 72
+          }
+        }
+      ]
+    },
+    {
+      "id": "e33",
+      "name": "Phong Ấn Cổ Đại 33",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 190,
+            "stones": 52
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 218,
+            "stones": 113
+          }
+        }
+      ]
+    },
+    {
+      "id": "e34",
+      "name": "Hồ Tiên Ẩn Hiện 34",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 97,
+            "stones": 26
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 203,
+            "stones": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "e35",
+      "name": "Linh Tuyền Tràn Ra 35",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 99,
+            "stones": 55
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 145,
+            "stones": 109
+          }
+        }
+      ]
+    },
+    {
+      "id": "e36",
+      "name": "Phong Ấn Cổ Đại 36",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 184,
+            "stones": 48
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 273,
+            "stones": 123
+          }
+        }
+      ]
+    },
+    {
+      "id": "e37",
+      "name": "Bí Cảnh Bất Ngờ 37",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 97,
+            "stones": 24
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 129,
+            "stones": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "e38",
+      "name": "Thần Mộc Tàn Tích 38",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 97,
+            "stones": 79
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 228,
+            "stones": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "e39",
+      "name": "Chiến Trường Cổ 39",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 57,
+            "stones": 84
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 204,
+            "stones": 123
+          }
+        }
+      ]
+    },
+    {
+      "id": "e40",
+      "name": "Linh Tuyền Tràn Ra 40",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 65,
+            "stones": 72
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 271,
+            "stones": 136
+          }
+        }
+      ]
+    },
+    {
+      "id": "e41",
+      "name": "Linh Tuyền Tràn Ra 41",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 154,
+            "stones": 40
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 157,
+            "stones": 125
+          }
+        }
+      ]
+    },
+    {
+      "id": "e42",
+      "name": "Phong Ấn Cổ Đại 42",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 113,
+            "stones": 47
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 146,
+            "stones": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "e43",
+      "name": "Mảnh Thiên Thạch Rơi 43",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 169,
+            "stones": 46
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 166,
+            "stones": 88
+          }
+        }
+      ]
+    },
+    {
+      "id": "e44",
+      "name": "Linh Tuyền Tràn Ra 44",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 57,
+            "stones": 21
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 148,
+            "stones": 64
+          }
+        }
+      ]
+    },
+    {
+      "id": "e45",
+      "name": "Gặp Gỡ Luyện Dược Sư 45",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 102,
+            "stones": 24
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 178,
+            "stones": 67
+          }
+        }
+      ]
+    },
+    {
+      "id": "e46",
+      "name": "Hồ Tiên Ẩn Hiện 46",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 169,
+            "stones": 27
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 298,
+            "stones": 67
+          }
+        }
+      ]
+    },
+    {
+      "id": "e47",
+      "name": "Bí Cảnh Bất Ngờ 47",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 163,
+            "stones": 77
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 131,
+            "stones": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "e48",
+      "name": "Bí Cảnh Bất Ngờ 48",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 67,
+            "stones": 51
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 238,
+            "stones": 150
+          }
+        }
+      ]
+    },
+    {
+      "id": "e49",
+      "name": "Ảo Cảnh Dị Thường 49",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 178,
+            "stones": 57
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 283,
+            "stones": 94
+          }
+        }
+      ]
+    },
+    {
+      "id": "e50",
+      "name": "Ảo Cảnh Dị Thường 50",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 175,
+            "stones": 93
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 104,
+            "stones": 99
+          }
+        }
+      ]
+    },
+    {
+      "id": "e51",
+      "name": "Kỳ Thú Thần Bí 51",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 60,
+            "stones": 51
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 199,
+            "stones": 51
+          }
+        }
+      ]
+    },
+    {
+      "id": "e52",
+      "name": "Gặp Gỡ Luyện Dược Sư 52",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 61,
+            "stones": 63
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 202,
+            "stones": 122
+          }
+        }
+      ]
+    },
+    {
+      "id": "e53",
+      "name": "Kỳ Thú Thần Bí 53",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 56,
+            "stones": 95
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 232,
+            "stones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "e54",
+      "name": "Gặp Gỡ Luyện Dược Sư 54",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 184,
+            "stones": 74
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 115,
+            "stones": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "e55",
+      "name": "Gặp Gỡ Luyện Dược Sư 55",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 171,
+            "stones": 20
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 210,
+            "stones": 53
+          }
+        }
+      ]
+    },
+    {
+      "id": "e56",
+      "name": "Thần Mộc Tàn Tích 56",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 140,
+            "stones": 35
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 169,
+            "stones": 140
+          }
+        }
+      ]
+    },
+    {
+      "id": "e57",
+      "name": "Bí Cảnh Bất Ngờ 57",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 132,
+            "stones": 31
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 273,
+            "stones": 87
+          }
+        }
+      ]
+    },
+    {
+      "id": "e58",
+      "name": "Hồ Tiên Ẩn Hiện 58",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 91,
+            "stones": 22
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 247,
+            "stones": 114
+          }
+        }
+      ]
+    },
+    {
+      "id": "e59",
+      "name": "Phong Ấn Cổ Đại 59",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 104,
+            "stones": 32
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 213,
+            "stones": 142
+          }
+        }
+      ]
+    },
+    {
+      "id": "e60",
+      "name": "Chiến Trường Cổ 60",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 124,
+            "stones": 89
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 131,
+            "stones": 73
+          }
+        }
+      ]
+    },
+    {
+      "id": "e61",
+      "name": "Linh Tuyền Tràn Ra 61",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 160,
+            "stones": 25
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 176,
+            "stones": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": "e62",
+      "name": "Chiến Trường Cổ 62",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 172,
+            "stones": 24
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 157,
+            "stones": 124
+          }
+        }
+      ]
+    },
+    {
+      "id": "e63",
+      "name": "Bí Cảnh Bất Ngờ 63",
+      "description": "Một ảo ảnh kỳ lạ che phủ cả khu vực.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 142,
+            "stones": 26
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 152,
+            "stones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "e64",
+      "name": "Phong Ấn Cổ Đại 64",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 166,
+            "stones": 25
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 103,
+            "stones": 140
+          }
+        }
+      ]
+    },
+    {
+      "id": "e65",
+      "name": "Ảo Cảnh Dị Thường 65",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 66,
+            "stones": 23
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 274,
+            "stones": 103
+          }
+        }
+      ]
+    },
+    {
+      "id": "e66",
+      "name": "Gặp Gỡ Luyện Dược Sư 66",
+      "description": "Một phong ấn cổ đại bắt đầu rung động khi bạn đến gần.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 89,
+            "stones": 46
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 214,
+            "stones": 99
+          }
+        }
+      ]
+    },
+    {
+      "id": "e67",
+      "name": "Phong Ấn Cổ Đại 67",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 166,
+            "stones": 65
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 159,
+            "stones": 137
+          }
+        }
+      ]
+    },
+    {
+      "id": "e68",
+      "name": "Chiến Trường Cổ 68",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 144,
+            "stones": 62
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 291,
+            "stones": 57
+          }
+        }
+      ]
+    },
+    {
+      "id": "e69",
+      "name": "Linh Tuyền Tràn Ra 69",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 145,
+            "stones": 64
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 221,
+            "stones": 149
+          }
+        }
+      ]
+    },
+    {
+      "id": "e70",
+      "name": "Hồ Tiên Ẩn Hiện 70",
+      "description": "Một phong ấn cổ đại bắt đầu rung động khi bạn đến gần.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 199,
+            "stones": 34
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 111,
+            "stones": 104
+          }
+        }
+      ]
+    },
+    {
+      "id": "e71",
+      "name": "Linh Tuyền Tràn Ra 71",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 62,
+            "stones": 74
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 205,
+            "stones": 130
+          }
+        }
+      ]
+    },
+    {
+      "id": "e72",
+      "name": "Hồ Tiên Ẩn Hiện 72",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 187,
+            "stones": 81
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 174,
+            "stones": 122
+          }
+        }
+      ]
+    },
+    {
+      "id": "e73",
+      "name": "Chiến Trường Cổ 73",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 145,
+            "stones": 86
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 195,
+            "stones": 123
+          }
+        }
+      ]
+    },
+    {
+      "id": "e74",
+      "name": "Bí Cảnh Bất Ngờ 74",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 189,
+            "stones": 46
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 271,
+            "stones": 65
+          }
+        }
+      ]
+    },
+    {
+      "id": "e75",
+      "name": "Kỳ Thú Thần Bí 75",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 140,
+            "stones": 63
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 115,
+            "stones": 116
+          }
+        }
+      ]
+    },
+    {
+      "id": "e76",
+      "name": "Mảnh Thiên Thạch Rơi 76",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 89,
+            "stones": 47
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 258,
+            "stones": 150
+          }
+        }
+      ]
+    },
+    {
+      "id": "e77",
+      "name": "Ảo Cảnh Dị Thường 77",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 129,
+            "stones": 41
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 240,
+            "stones": 135
+          }
+        }
+      ]
+    },
+    {
+      "id": "e78",
+      "name": "Gặp Gỡ Luyện Dược Sư 78",
+      "description": "Một lối vào bí cảnh mở ra ngay trước mắt.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 178,
+            "stones": 22
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 172,
+            "stones": 86
+          }
+        }
+      ]
+    },
+    {
+      "id": "e79",
+      "name": "Chiến Trường Cổ 79",
+      "description": "Một ảo ảnh kỳ lạ che phủ cả khu vực.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 186,
+            "stones": 94
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 208,
+            "stones": 78
+          }
+        }
+      ]
+    },
+    {
+      "id": "e80",
+      "name": "Bí Cảnh Bất Ngờ 80",
+      "description": "Một ảo ảnh kỳ lạ che phủ cả khu vực.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 119,
+            "stones": 97
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 292,
+            "stones": 62
+          }
+        }
+      ]
+    },
+    {
+      "id": "e81",
+      "name": "Bí Cảnh Bất Ngờ 81",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 116,
+            "stones": 58
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 297,
+            "stones": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "e82",
+      "name": "Thần Mộc Tàn Tích 82",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 80,
+            "stones": 45
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 218,
+            "stones": 65
+          }
+        }
+      ]
+    },
+    {
+      "id": "e83",
+      "name": "Phong Ấn Cổ Đại 83",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 145,
+            "stones": 26
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 106,
+            "stones": 134
+          }
+        }
+      ]
+    },
+    {
+      "id": "e84",
+      "name": "Thần Mộc Tàn Tích 84",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 133,
+            "stones": 99
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 290,
+            "stones": 87
+          }
+        }
+      ]
+    },
+    {
+      "id": "e85",
+      "name": "Gặp Gỡ Luyện Dược Sư 85",
+      "description": "Linh tuyền bất ngờ tràn ra từ khe núi.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 144,
+            "stones": 48
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 293,
+            "stones": 115
+          }
+        }
+      ]
+    },
+    {
+      "id": "e86",
+      "name": "Bí Cảnh Bất Ngờ 86",
+      "description": "Một ảo ảnh kỳ lạ che phủ cả khu vực.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 128,
+            "stones": 46
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 226,
+            "stones": 51
+          }
+        }
+      ]
+    },
+    {
+      "id": "e87",
+      "name": "Chiến Trường Cổ 87",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 103,
+            "stones": 57
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 193,
+            "stones": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "e88",
+      "name": "Mảnh Thiên Thạch Rơi 88",
+      "description": "Bạn phát hiện một nơi cổ xưa với khí tức mạnh mẽ.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 184,
+            "stones": 57
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 300,
+            "stones": 134
+          }
+        }
+      ]
+    },
+    {
+      "id": "e89",
+      "name": "Gặp Gỡ Luyện Dược Sư 89",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 77,
+            "stones": 27
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 111,
+            "stones": 76
+          }
+        }
+      ]
+    },
+    {
+      "id": "e90",
+      "name": "Ảo Cảnh Dị Thường 90",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 154,
+            "stones": 61
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 241,
+            "stones": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": "e91",
+      "name": "Phong Ấn Cổ Đại 91",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 184,
+            "stones": 67
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 286,
+            "stones": 79
+          }
+        }
+      ]
+    },
+    {
+      "id": "e92",
+      "name": "Linh Tuyền Tràn Ra 92",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 148,
+            "stones": 85
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 147,
+            "stones": 89
+          }
+        }
+      ]
+    },
+    {
+      "id": "e93",
+      "name": "Phong Ấn Cổ Đại 93",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 185,
+            "stones": 55
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 164,
+            "stones": 94
+          }
+        }
+      ]
+    },
+    {
+      "id": "e94",
+      "name": "Kỳ Thú Thần Bí 94",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 112,
+            "stones": 74
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 224,
+            "stones": 85
+          }
+        }
+      ]
+    },
+    {
+      "id": "e95",
+      "name": "Kỳ Thú Thần Bí 95",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 110,
+            "stones": 77
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 197,
+            "stones": 67
+          }
+        }
+      ]
+    },
+    {
+      "id": "e96",
+      "name": "Phong Ấn Cổ Đại 96",
+      "description": "Một sinh vật kỳ thú nhìn bạn bằng ánh mắt tò mò.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 132,
+            "stones": 83
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 290,
+            "stones": 119
+          }
+        }
+      ]
+    },
+    {
+      "id": "e97",
+      "name": "Hồ Tiên Ẩn Hiện 97",
+      "description": "Bạn bước vào một nơi như chiến trường cổ xưa.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 200,
+            "stones": 92
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 279,
+            "stones": 132
+          }
+        }
+      ]
+    },
+    {
+      "id": "e98",
+      "name": "Bí Cảnh Bất Ngờ 98",
+      "description": "Một vị luyện dược sư mỉm cười mời bạn uống thử đan dược.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 148,
+            "stones": 69
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 208,
+            "stones": 130
+          }
+        }
+      ]
+    },
+    {
+      "id": "e99",
+      "name": "Hồ Tiên Ẩn Hiện 99",
+      "description": "Một hồ nước hiện ra, xung quanh là linh khí nồng đậm.",
+      "choices": [
+        {
+   "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 191,
+            "stones": 31
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 124,
+            "stones": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "e100",
+      "name": "Gặp Gỡ Luyện Dược Sư 100",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 128,
+            "stones": 83
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 288,
+            "stones": 53
+          }
+        }
+      ]
+    },
+    {
+      "id": "e101",
+      "name": "Linh Tuyền Tràn Ra 101",
+      "description": "Một mảnh thiên thạch rơi gần bạn, tỏa ra linh khí cuồn cuộn.",
+      "choices": [
+        {
+          "text": "Thận trọng quan sát",
+          "reward": {
+            "exp": 114,
+            "stones": 73
+          }
+        },
+        {
+          "text": "Mạo hiểm khám phá",
+          "reward": {
+            "type": "risky",
+            "exp": 242,
+            "stones": 115
+          }
+        }
+      ]
+    }
+  ]
+}

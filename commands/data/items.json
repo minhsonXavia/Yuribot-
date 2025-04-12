@@ -1,28 +1,449 @@
 {
-    "weapons": [
-      {
-        "id": "kiem-lua",
-        "name": "Kiếm Lửa",
-        "power": 20,
-        "price": 150
-      }
-    ],
-    "artifacts": [
-      {
-        "id": "phap-an-tang-exp",
-        "name": "Pháp Ấn Tăng EXP",
-        "effect": "exp_boost",
-        "value": 20,
-        "price": 200
-      }
-    ],
-    "consumables": [
-      {
-        "id": "dot-pha-dan",
-        "name": "Đột Phá Đan",
-        "effect": "dung_de_dot_pha",
-        "price": 100
-      }
-    ]
-  }
-  
+  "weapons": [
+    {
+      "id": "kiem-lua",
+      "name": "Kiếm Lửa",
+      "power": 20,
+      "price": 150
+    },
+    {
+      "id": "dao-bang",
+      "name": "Dao Băng",
+      "power": 18,
+      "price": 140
+    },
+    {
+      "id": "truong-phap-su",
+      "name": "Trượng Pháp Sư",
+      "magic_power": 25,
+      "price": 180
+    },
+    {
+      "id": "cung-than-xa",
+      "name": "Cung Thần Xạ",
+      "attack_speed": 15,
+      "price": 160
+    },
+    {
+      "id": "buoc-tay-sat",
+      "name": "Búa Tay Sắt",
+      "power": 22,
+      "price": 170
+    },
+    {
+      "id": "kiem-sac-ben",
+      "name": "Kiếm Sắc Bén",
+      "power": 21,
+      "critical_rate": 5,
+      "price": 165
+    },
+    {
+      "id": "gay-go-thuat",
+      "name": "Gậy Gọi Thuật",
+      "magic_power": 28,
+      "price": 190
+    },
+    {
+      "id": "no-lien-xa",
+      "name": "Nỏ Liên Xạ",
+      "attack_speed": 18,
+      "price": 175
+    },
+    {
+      "id": "vuot-man-thu",
+      "name": "Vuốt Mạn Thú",
+      "power": 19,
+      "attack_speed": 3,
+      "price": 155
+    },
+    {
+      "id": "kiem-chan-long",
+      "name": "Kiếm Chân Long",
+      "power": 30,
+      "price": 300
+    }
+  ],
+  "armors": [
+    {
+      "id": "ao-da-chien",
+      "name": "Áo Da Chiến",
+      "defense": 10,
+      "price": 100
+    },
+    {
+      "id": "giap-sat-nang",
+      "name": "Giáp Sắt Nặng",
+      "defense": 15,
+      "speed_reduction": 2,
+      "price": 130
+    },
+    {
+      "id": "ao-phap-su",
+      "name": "Áo Pháp Sư",
+      "magic_resistance": 12,
+      "price": 120
+    },
+    {
+      "id": "mu-chien-binh",
+      "name": "Mũ Chiến Binh",
+      "defense": 5,
+      "price": 70
+    },
+    {
+      "id": "giay-da-nhanh",
+      "name": "Giày Da Nhanh",
+      "speed_boost": 5,
+      "price": 90
+    },
+    {
+      "id": "giap-vai-tinh-linh",
+      "name": "Giáp Vai Tinh Linh",
+      "defense": 12,
+      "magic_resistance": 8,
+      "price": 140
+    },
+    {
+      "id": "quan-dai-bang",
+      "name": "Quần Dài Băng",
+      "defense": 11,
+      "slow_resistance": 3,
+      "price": 115
+    },
+    {
+      "id": "guantay-da-thu",
+      "name": "Găng Tay Da Thú",
+      "attack_boost": 3,
+      "price": 80
+    },
+    {
+      "id": "ao-choang-bong-toi",
+      "name": "Áo Choàng Bóng Tối",
+      "defense": 8,
+      "evasion": 4,
+      "price": 105
+    },
+    {
+      "id": "giap-thuong-co",
+      "name": "Giáp Thượng Cổ",
+      "defense": 20,
+      "price": 250
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "phap-an-tang-exp",
+      "name": "Pháp Ấn Tăng EXP",
+      "effect": "exp_boost",
+      "value": 20,
+      "price": 200
+    },
+    {
+      "id": "ngoc-tang-mana",
+      "name": "Ngọc Tăng Mana",
+      "effect": "mana_boost",
+      "value": 30,
+      "price": 180
+    },
+    {
+      "id": "boi-tang-hp",
+      "name": "Bùa Tăng HP",
+      "effect": "hp_boost",
+      "value": 50,
+      "price": 150
+    },
+    {
+      "id": "nhan-tang-luc-tan-cong",
+      "name": "Nhẫn Tăng Lực Tấn Công",
+      "effect": "attack_boost",
+      "value": 5,
+      "price": 220
+    },
+    {
+      "id": "amulet-tang-phong-thu",
+      "name": "Amulet Tăng Phòng Thủ",
+      "effect": "defense_boost",
+      "value": 7,
+      "price": 210
+    },
+    {
+      "id": "kinh-nghiem-co",
+      "name": "Kinh Nghiệm Cổ",
+      "effect": "exp_boost",
+      "value": 15,
+      "price": 160
+    },
+    {
+      "id": "da-mana-tinh-khiet",
+      "name": "Đá Mana Tinh Khiết",
+      "effect": "mana_regen_boost",
+      "value": 10,
+      "price": 195
+    },
+    {
+      "id": "binh-phuc-hoi-nhanh",
+      "name": "Bình Phục Hồi Nhanh",
+      "effect": "hp_regen_boost",
+      "value": 12,
+      "price": 170
+    },
+    {
+      "id": "huy-hieu-chien-thang",
+      "name": "Huy Hiệu Chiến Thắng",
+      "effect": "critical_damage_boost",
+      "value": 10,
+      "price": 250
+    },
+    {
+      "id": "mat-bao-tang-ty-le-rot-do",
+      "name": "Mắt Bão Tăng Tỷ Lệ Rớt Đồ",
+      "effect": "drop_rate_boost",
+      "value": 8,
+      "price": 230
+    }
+  ],
+  "consumables": [
+    {
+      "id": "dot-pha-dan",
+      "name": "Đột Phá Đan",
+      "effect": "dung_de_dot_pha",
+      "price": 100
+    },
+    {
+      "id": "thuoc-hoi-phuc-nho",
+      "name": "Thuốc Hồi Phục Nhỏ",
+      "effect": "heal",
+      "value": 50,
+      "price": 20
+    },
+    {
+      "id": "binh-mana-nho",
+      "name": "Bình Mana Nhỏ",
+      "effect": "restore_mana",
+      "value": 30,
+      "price": 25
+    },
+    {
+      "id": "thuoc-tang-cong",
+      "name": "Thuốc Tăng Công",
+      "effect": "attack_boost",
+      "duration": 60,
+      "value": 10,
+      "price": 80
+    },
+    {
+      "id": "thuoc-tang-thu",
+      "name": "Thuốc Tăng Thủ",
+      "effect": "defense_boost",
+      "duration": 60,
+      "value": 12,
+      "price": 75
+    },
+    {
+      "id": "dan-tang-tu-chat",
+      "name": "Đan Tăng Tư Chất",
+      "effect": "permanent_stat_boost",
+      "value": 2,
+      "price": 300
+    },
+    {
+      "id": "linh-thach-cao-cap",
+      "name": "Linh Thạch Cao Cấp",
+      "effect": "increase_cultivation_speed",
+      "duration": 3600,
+      "value": 15,
+      "price": 250
+    },
+    {
+      "id": "tui-da-quy",
+      "name": "Túi Đá Quý",
+      "effect": "add_currency",
+      "currency_type": "stones",
+      "value": 500,
+      "price": 150
+    },
+    {
+      "id": "bi-kip-vo-hoc",
+      "name": "Bí Kíp Võ Học",
+      "effect": "learn_new_skill",
+      "skill_id": "skill-moi-1",
+      "price": 400
+    },
+    {
+      "id": "huy-chuong-chien-binh",
+      "name": "Huy Chương Chiến Binh",
+      "effect": "reputation_boost",
+      "value": 50,
+      "price": 120
+    },
+    {
+      "id": "bao-cuong-hoa-cao-cap",
+      "name": "Bao Cường Hóa Cao Cấp",
+      "effect": "enhance_item",
+      "success_rate": 80,
+      "price": 350
+    },
+    {
+      "id": "ban-do-kho-bau",
+      "name": "Bản Đồ Kho Báu",
+      "effect": "reveal_treasure_location",
+      "location_id": "treasure-1",
+      "price": 280
+    },
+    {
+      "id": "tinh-the-bang-gia",
+      "name": "Tinh Thể Băng Giá",
+      "effect": "apply_ice_damage",
+      "power": 15,
+      "duration": 10,
+      "price": 190
+    },
+    {
+      "id": "linh-duoc-cao-cap",
+      "name": "Linh Dược Cao Cấp",
+      "effect": "fully_restore_hp_mana",
+      "price": 220
+    },
+    {
+      "id": "da-cuong-hoa-cao-cap",
+      "name": "Đá Cường Hóa Cao Cấp",
+      "effect": "increase_item_level",
+      "value": 3,
+      "price": 320
+    },
+    {
+      "id": "phu-phep-dac-biet",
+      "name": "Phù Phép Đặc Biệt",
+      "effect": "apply_special_enchantment",
+      "enchantment_id": "enchant-1",
+      "price": 450
+    },
+    {
+      "id": "danh-hieu-chien-binh",
+      "name": "Danh Hiệu Chiến Binh",
+      "effect": "unlock_pvp_rewards",
+      "price": 180
+    },
+    {
+      "id": "cong-thuc-luyen-dan",
+      "name": "Công Thức Luyện Đan",
+      "effect": "learn_new_recipe",
+      "recipe_id": "recipe-1",
+      "price": 380
+    },
+    {
+      "id": "nguyen-lieu-dac-biet",
+      "name": "Nguyên Liệu Đặc Biệt",
+      "effect": "crafting_material",
+      "material_type": "rare",
+      "price": 210
+    },
+    {
+      "id": "phan-thuong-su-kien-dac-biet",
+      "name": "Phần Thưởng Sự Kiện Đặc Biệt",
+      "effect": "receive_random_reward",
+      "reward_table_id": "event-reward-1",
+      "price": 0
+    },
+    {
+      "id": "co-vat-tang-manh",
+      "name": "Cổ Vật Tăng Mạnh",
+      "effect": "permanent_stat_boost",
+      "value": 5,
+      "price": 600
+    },
+    {
+      "id": "bi-kip-than-thong",
+      "name": "Bí Kíp Thần Thông",
+      "effect": "learn_ultimate_skill",
+      "skill_id": "ultimate-1",
+      "price": 800
+    },
+    {
+      "id": "da-khac-ngoc",
+      "name": "Đá Khắc Ngọc",
+      "effect": "socket_gem",
+      "gem_slot": 1,
+      "price": 250
+    },
+    {
+      "id": "tui-tien-lon",
+      "name": "Túi Tiền Lớn",
+      "effect": "add_currency",
+      "currency_type": "stones",
+      "value": 1200,
+      "price": 300
+    },
+    {
+      "id": "cong-hien-bang-hoi",
+      "name": "Cống Hiến Bang Hội",
+      "effect": "increase_guild_points",
+      "value": 100,
+      "price": 0
+    },
+    {
+      "id": "vat-pham-bi-an",
+      "name": "Vật Phẩm Bí Ẩn",
+      "effect": "reveal_random_item",
+      "price": 350
+    },
+    {
+      "id": "lua-bong-toi",
+      "name": "Lửa Bóng Tối",
+      "effect": "apply_dark_damage",
+      "power": 20,
+      "duration": 8,
+      "price": 210
+    },
+    {
+      "id": "linh-khi-tien-thien",
+      "name": "Linh Khí Tiên Thiên",
+      "effect": "increase_cultivation_speed",
+      "duration": 7200,
+      "value": 20,
+      "price": 500
+    },
+    {
+      "id": "ao-choang-bang-gia",
+      "name": "Áo Choàng Băng Giá",
+      "effect": "cold_resistance_boost",
+      "value": 15,
+      "price": 280
+    },
+    {
+      "id": "phu-hieu-su-kien",
+      "name": "Phù Hiệu Sự Kiện",
+      "effect": "access_event_shop",
+      "price": 0
+    },
+    {
+      "id": "vuong-mien-anh-hung",
+      "name": "Vương Miện Anh Hùng",
+      "effect": "permanent_stat_boost",
+      "value": 8,
+      "price": 700
+    },
+    {
+      "id": "trung-linh-thu-quy-hiem",
+      "name": "Trứng Linh Thú Quý Hiếm",
+      "effect": "summon_rare_pet",
+      "pet_id": "pet-rare-1",
+      "price": 650
+    },
+    {
+      "id": "manh-vu-khi-hiem",
+      "name": "Mảnh Vũ Khí Hiếm",
+      "effect": "crafting_material",
+      "material_type": "weapon_fragment",
+      "price": 180
+    },
+    {
+      "id": "trang-bi-epic",
+      "name": "Trang Bị Epic",
+      "effect": "equip_powerful_gear",
+      "gear_id": "epic-armor-1",
+      "price": 1000
+    },
+    {
+      "id": "ky-nang-thuong-thua",
+      "name": "Kỹ Năng Thượng Thừa",
+      "effect": "learn_

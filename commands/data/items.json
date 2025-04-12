@@ -127,6 +127,112 @@
       "name": "Giáp Thượng Cổ",
       "defense": 20,
       "price": 250
+    },
+     {
+      "id": "ao-giap-ho-bao",
+      "name": "Áo Giáp Hổ Báo",
+      "defense": 14,
+      "attack_boost": 4,
+      "price": 160
+    },
+    {
+      "id": "bot-chien-toc-do",
+      "name": "Bốt Chiến Tốc Độ",
+      "defense": 7,
+      "speed_boost": 7,
+      "price": 150
+    },
+    {
+      "id": "guantay-cuong-luc",
+      "name": "Găng Tay Cường Lực",
+      "defense": 6,
+      "power": 5,
+      "price": 140
+    },
+    {
+      "id": "non-da-bang-gia",
+      "name": "Nón Da Băng Giá",
+      "defense": 9,
+      "magic_power": 3,
+      "price": 130
+    },
+    {
+      "id": "quan-vai-linh-hoat",
+      "name": "Quần Vải Linh Hoạt",
+      "defense": 8,
+      "evasion": 6,
+      "price": 120
+    },
+    {
+      "id": "ao-giap-anh-sang",
+      "name": "Áo Giáp Ánh Sáng",
+      "defense": 16,
+      "attack_speed": 2,
+      "price": 180
+    },
+    {
+      "id": "giay-kinh-van",
+      "name": "Giày Kinh Vân",
+      "defense": 5,
+      "speed_boost": 9,
+      "price": 170
+    },
+    {
+      "id": "guantay-sat-thep",
+      "name": "Găng Tay Sắt Thép",
+      "defense": 10,
+      "power": 7,
+      "price": 190
+    },
+    {
+      "id": "non-thu-du",
+      "name": "Nón Thú Dữ",
+      "defense": 11,
+      "critical_rate": 4,
+      "price": 165
+    },
+    {
+      "id": "quan-da-sung-manh",
+      "name": "Quần Da Sung Mãnh",
+      "defense": 13,
+      "attack_boost": 6,
+      "price": 175
+    },
+    {
+      "id": "ao-giap-vu-bao",
+      "name": "Áo Giáp Vũ Bão",
+      "defense": 17,
+      "speed_boost": 3,
+      "price": 200
+    },
+    {
+      "id": "bot-hoang-da",
+      "name": "Bốt Hoang Dã",
+      "defense": 6,
+      "speed_boost": 11,
+      "price": 195
+    },
+    {
+      "id": "guantay-hien-triet",
+      "name": "Găng Tay Hiền Triết",
+      "defense": 7,
+      "magic_power": 6,
+      "price": 185
+    },
+    {
+      "id": "non-long-vu",
+      "name": "Nón Lông Vũ",
+      "defense": 8,
+      "evasion": 8,
+      "price": 170
+    },
+    {
+      "id": "quan-vai-tang-hinh",
+      "name": "Quần Vải Tàng Hình",
+      "defense": 9,
+      "stealth_boost": 5,
+      "speed_boost": 2,
+      "price": 180
     }
   ],
   "artifacts": [
@@ -443,7 +549,145 @@
       "gear_id": "epic-armor-1",
       "price": 1000
     },
-    {
-      "id": "ky-nang-thuong-thua",
-      "name": "Kỹ Năng Thượng Thừa",
-      "effect": "learn_
+{
+    "id": "trang-bi-huyen-thoai",
+    "name": "Trang Bị Huyền Thoại",
+    "effect": "equip_legendary_gear",
+    "gear_id": "legendary-armor-1",
+    "price": 2000
+  },
+  {
+    "id": "vu-khi-rong",
+    "name": "Vũ Khí Rồng",
+    "effect": "equip_dragon_weapon",
+    "gear_id": "dragon-sword-1",
+    "price": 1500
+  },
+  {
+    "id": "mu-thuat-si",
+    "name": "Mũ Thuật Sĩ",
+    "effect": "equip_mage_hat",
+    "gear_id": "mage-hat-2",
+    "price": 800
+  },
+  {
+    "id": "ao-bong-toi",
+    "name": "Áo Bóng Tối",
+    "effect": "equip_dark_robe",
+    "gear_id": "dark-robe-3",
+    "price": 1200
+  },
+  {
+    "id": "giay-thien-than",
+    "name": "Giày Thiên Thần",
+    "effect": "equip_angel_boots",
+    "gear_id": "angel-boots-1",
+    "price": 1300
+  },
+  {
+    "id": "la-chan-than-thanh",
+    "name": "Lá Chắn Thần Thánh",
+    "effect": "equip_holy_shield",
+    "gear_id": "holy-shield-1",
+    "price": 1800
+  },
+  {
+    "id": "kiem-dia-nguc",
+    "name": "Kiếm Địa Ngục",
+    "effect": "equip_hell_sword",
+    "gear_id": "hell-sword-1",
+    "price": 1600
+  },
+  {
+    "id": "nhan-toc-do",
+    "name": "Nhẫn Tốc Độ",
+    "effect": "equip_speed_ring",
+    "gear_id": "speed-ring-1",
+    "price": 700
+  },
+  {
+    "id": "ao-choang-phap-su",
+    "name": "Áo Choàng Pháp Sư",
+    "effect": "equip_sorcerer_cloak",
+    "gear_id": "sorcerer-cloak-2",
+    "price": 1100
+  },
+  {
+    "id": "mu-bao-ho",
+    "name": "Mũ Bảo Hộ",
+    "effect": "equip_helmet",
+    "gear_id": "helmet-1",
+    "price": 600
+  },
+  {
+    "id": "thuong-lanh-gia",
+    "name": "Thương Lãnh Giá",
+    "effect": "equip_ice_spear",
+    "gear_id": "ice-spear-1",
+    "price": 1400
+  },
+  {
+    "id": "vu-khi-bang",
+    "name": "Vũ Khí Băng",
+    "effect": "equip_ice_weapon",
+    "gear_id": "ice-sword-1",
+    "price": 1250
+  },
+  {
+    "id": "trang-suc-phuc-lanh",
+    "name": "Trang Sức Phúc Lành",
+    "effect": "equip_blessing_amulet",
+    "gear_id": "blessed-amulet-1",
+    "price": 1000
+  },
+  {
+    "id": "giao-thien-loi",
+    "name": "Giáo Thiên Lôi",
+    "effect": "equip_thunder_spear",
+    "gear_id": "thunder-spear-1",
+    "price": 1700
+  },
+  {
+    "id": "giay-lang-le",
+    "name": "Giày Lặng Lẽ",
+    "effect": "equip_silent_shoes",
+    "gear_id": "silent-shoes-2",
+    "price": 900
+  },
+  {
+    "id": "ao-than-linh",
+    "name": "Áo Thần Linh",
+    "effect": "equip_god_robe",
+    "gear_id": "god-robe-1",
+    "price": 1900
+  },
+  {
+    "id": "nhan-sinh-luc",
+    "name": "Nhẫn Sinh Lực",
+    "effect": "equip_health_ring",
+    "gear_id": "health-ring-1",
+    "price": 950
+  },
+  {
+    "id": "kiem-sat-thu",
+    "name": "Kiếm Sát Thủ",
+    "effect": "equip_assassin_blade",
+    "gear_id": "assassin-blade-2",
+    "price": 1350
+  },
+  {
+    "id": "la-chan-bang",
+    "name": "Lá Chắn Băng",
+    "effect": "equip_ice_shield",
+    "gear_id": "ice-shield-1",
+    "price": 1050
+  },
+  {
+    "id": "mu-cuong-no",
+    "name": "Mũ Cuồng Nộ",
+    "effect": "equip_rage_helmet",
+    "gear_id": "rage-helmet-1",
+    "price": 1150
+  }
+]
+    

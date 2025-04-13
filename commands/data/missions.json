@@ -1,0 +1,23 @@
+{
+    "daily": [
+      {
+        "id": "d1",
+        "name": "Tu luyện 2 lần",
+        "reward": {
+          "exp": 100,
+          "stones": 50
+        }
+      }
+    ],
+    "special": [
+      {
+        "id": "s1",
+        "name": "Đánh bại Boss Lửa",
+        "reward": {
+          "exp": 300,
+          "stones": 100,
+          "item": "dot-pha-dan"
+        }
+      }
+    ]
+  }

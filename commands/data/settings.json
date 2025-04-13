@@ -1,0 +1,57 @@
+{
+    "cultivationStages": [
+      {
+        "name": "Luyện Khí",
+        "expToNext": 300,
+        "expMultiplier": 1.0,
+        "cooldown": 60
+      },
+      {
+        "name": "Trúc Cơ",
+        "expToNext": 600,
+        "expMultiplier": 1.5,
+        "cooldown": 90
+      },
+      {
+        "name": "Kim Đan",
+        "expToNext": 1000,
+        "expMultiplier": 2.0,
+        "cooldown": 120
+      }
+    ],
+    "breakthroughChance": {
+      "base": 50,
+      "itemBonus": 30,
+      "failPenalty": 20
+    },
+    "monsters": [
+      {
+        "id": "quai-lua",
+        "name": "Quái Lửa",
+        "health": 100,
+        "power": 10,
+        "minStage": 0,
+        "reward": {
+          "exp": 50,
+          "stones": 20
+        }
+      }
+    ],
+    "bosses": [
+      {
+        "id": "boss-lua",
+        "name": "Boss Lửa",
+        "health": 300,
+        "power": 25,
+        "minStage": 1,
+        "reward": {
+          "exp": 150,
+          "stones": 100,
+          "item": "dot-pha-dan"
+        }
+      }
+    ]
+  }
+  
+
+

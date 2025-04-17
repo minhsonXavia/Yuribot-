@@ -1,0 +1,150 @@
+{
+    "pets": [
+      {
+        "id": "wolf1",
+        "name": "Sói Xám",
+        "rarity": "phổ biến",
+        "type": "thú",
+        "moves": [
+          { "name": "Cào Vuốt", "damage": 20, "cooldown": 1 },
+          { "name": "Cắn Xé", "damage": 35, "cooldown": 2 }
+        ],
+        "hp": 100,
+        "defaultLocation": "rừng_thông"
+      },
+      {
+        "id": "phoenix1",
+        "name": "Phượng Hoàng Lửa",
+        "rarity": "hiếm",
+        "type": "lửa",
+        "moves": [
+          { "name": "Ngọn Lửa", "damage": 30, "cooldown": 1 },
+          { "name": "Cánh Lửa", "damage": 40, "cooldown": 2 },
+          { "name": "Hỏa Diệm", "damage": 60, "cooldown": 3 }
+        ],
+        "hp": 120,
+        "defaultLocation": "núi_lửa"
+      },
+      {
+        "id": "fox1",
+        "name": "Cáo Nâu",
+        "rarity": "phổ biến",
+        "type": "thú",
+        "moves": [
+          { "name": "Lướt Nhanh", "damage": 15, "cooldown": 1 },
+          { "name": "Rít Gầm", "damage": 25, "cooldown": 2 }
+        ],
+        "hp": 80,
+        "defaultLocation": "rừng_thông"
+      },
+      {
+        "id": "rare_wolf",
+        "name": "Sói Bóng Tối",
+        "rarity": "hiếm",
+        "type": "bóng tối",
+        "moves": [
+          { "name": "Cắn Bóng Tối", "damage": 45, "cooldown": 2 },
+          { "name": "Ám Ảnh", "damage": 70, "cooldown": 3 }
+        ],
+        "hp": 130,
+        "defaultLocation": "rừng_thông"
+      },
+      {
+        "id": "fire_lizard",
+        "name": "Thằn Lằn Lửa",
+        "rarity": "phổ biến",
+        "type": "lửa",
+        "moves": [
+          { "name": "Phun Lửa", "damage": 25, "cooldown": 1 },
+          { "name": "Cào Nóng", "damage": 30, "cooldown": 2 }
+        ],
+        "hp": 95,
+        "defaultLocation": "núi_lửa"
+      },
+      {
+        "id": "lava_slug",
+        "name": "Sên Dung Nham",
+        "rarity": "hiếm",
+        "type": "lửa",
+        "moves": [
+          { "name": "Dung Nham Chảy", "damage": 40, "cooldown": 2 },
+          { "name": "Lửa Sôi", "damage": 50, "cooldown": 3 }
+        ],
+        "hp": 110,
+        "defaultLocation": "núi_lửa"
+      },
+      {
+        "id": "fairy_deer",
+        "name": "Hươu Tiên",
+        "rarity": "hiếm",
+        "type": "ánh sáng",
+        "moves": [
+          { "name": "Ánh Sáng Nhẹ", "damage": 35, "cooldown": 1 },
+          { "name": "Hồi Phục", "damage": -25, "cooldown": 3 }
+        ],
+        "hp": 100,
+        "defaultLocation": "rừng_tinh_linh"
+      },
+      {
+        "id": "flower_cat",
+        "name": "Mèo Hoa",
+        "rarity": "phổ biến",
+        "type": "tự nhiên",
+        "moves": [
+          { "name": "Tát Hoa", "damage": 20, "cooldown": 1 },
+          { "name": "Gãi Gai", "damage": 30, "cooldown": 2 }
+        ],
+        "hp": 90,
+        "defaultLocation": "khu_vườn"
+      },
+      {
+        "id": "mystic_rabbit",
+        "name": "Thỏ Huyền Bí",
+        "rarity": "hiếm",
+        "type": "ma thuật",
+        "moves": [
+          { "name": "Ánh Trăng", "damage": 40, "cooldown": 2 },
+          { "name": "Dịch Chuyển", "damage": 0, "cooldown": 1 }
+        ],
+        "hp": 85,
+        "defaultLocation": "hang_mặt_trăng"
+      },
+      {
+        "id": "storm_hawk",
+        "name": "Diều Hâu Bão Tố",
+        "rarity": "hiếm",
+        "type": "gió",
+        "moves": [
+          { "name": "Lốc Xoáy", "damage": 50, "cooldown": 2 },
+          { "name": "Cánh Gió", "damage": 45, "cooldown": 1 }
+        ],
+        "hp": 100,
+        "defaultLocation": "đỉnh_gió"
+      },
+      {
+        "id": "rock_turtle",
+        "name": "Rùa Đá",
+        "rarity": "phổ biến",
+        "type": "đất",
+        "moves": [
+          { "name": "Lăn Tròn", "damage": 20, "cooldown": 1 },
+          { "name": "Đập Đất", "damage": 35, "cooldown": 2 }
+        ],
+        "hp": 150,
+        "defaultLocation": "thung_lũng"
+      },
+      {
+        "id": "crystal_snake",
+        "name": "Rắn Pha Lê",
+        "rarity": "hiếm",
+        "type": "pha lê",
+        "moves": [
+          { "name": "Chém Pha Lê", "damage": 55, "cooldown": 2 },
+          { "name": "Tăng Giáp", "damage": 0, "cooldown": 3 }
+        ],
+        "hp": 100,
+        "defaultLocation": "hang_pha_lê"
+      }
+    ]
+  }
+  

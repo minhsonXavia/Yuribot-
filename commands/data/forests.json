@@ -1,0 +1,72 @@
+{
+  "forests": [
+    {
+      "id": "rừng_thông",
+      "name": "Rừng Thông",
+      "description": "Khu rừng xanh mát với nhiều động vật hoang dã",
+      "pets": [
+        { "id": "wolf1", "chance": 50 },
+        { "id": "fox1", "chance": 35 },
+        { "id": "rare_wolf", "chance": 15 }
+      ]
+    },
+    {
+      "id": "núi_lửa",
+      "name": "Núi Lửa",
+      "description": "Núi lửa nóng bỏng với những sinh vật lửa dữ tợn",
+      "pets": [
+        { "id": "fire_lizard", "chance": 50 },
+        { "id": "lava_slug", "chance": 30 },
+        { "id": "phoenix1", "chance": 20 }
+      ]
+    },
+    {
+      "id": "rừng_tinh_linh",
+      "name": "Rừng Tinh Linh",
+      "description": "Nơi ánh sáng kỳ ảo của tinh linh chiếu rọi khắp rừng",
+      "pets": [
+        { "id": "fairy_deer", "chance": 100 }
+      ]
+    },
+    {
+      "id": "khu_vườn",
+      "name": "Khu Vườn Cổ Tích",
+      "description": "Khu vườn đầy hoa và hương thơm dễ chịu",
+      "pets": [
+        { "id": "flower_cat", "chance": 100 }
+      ]
+    },
+    {
+      "id": "hang_mặt_trăng",
+      "name": "Hang Mặt Trăng",
+      "description": "Hang động huyền bí dưới ánh sáng trăng rằm",
+      "pets": [
+        { "id": "mystic_rabbit", "chance": 100 }
+      ]
+    },
+    {
+      "id": "đỉnh_gió",
+      "name": "Đỉnh Gió",
+      "description": "Đỉnh núi cao nơi gió lồng lộng và những loài chim sinh sống",
+      "pets": [
+        { "id": "storm_hawk", "chance": 100 }
+      ]
+    },
+    {
+      "id": "thung_lũng",
+      "name": "Thung Lũng Đá",
+      "description": "Thung lũng nơi sinh sống của sinh vật có giáp vững chắc",
+      "pets": [
+        { "id": "rock_turtle", "chance": 100 }
+      ]
+    },
+    {
+      "id": "hang_pha_lê",
+      "name": "Hang Pha Lê",
+      "description": "Hang động lấp lánh với ánh sáng từ pha lê ma thuật",
+      "pets": [
+        { "id": "crystal_snake", "chance": 100 }
+      ]
+    }
+  ]
+}

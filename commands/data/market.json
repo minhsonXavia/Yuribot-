@@ -1,0 +1,39 @@
+{
+    "marketMultiplier": 1.05,
+    "lastUpdate": "2025-04-27T23:59:59.999Z",
+    "nextUpdate": "2025-04-28T23:59:59.999Z",
+    "marketHistory": [
+      {
+        "date": "2025-04-26T23:59:59.999Z",
+        "multiplier": 1.02
+      },
+      {
+        "date": "2025-04-27T23:59:59.999Z",
+        "multiplier": 1.05
+      }
+    ],
+    "auctions": [
+      {
+        "propertyId": "prop005",
+        "highestBid": 2150000000,
+        "highestBidder": "123456789012345678",
+        "bidderName": "NguyenVanA",
+        "startTime": 1745536800000,
+        "endTime": 1745623200000,
+        "bids": [
+          {
+            "userId": "987654321098765432",
+            "username": "TranHoaiB",
+            "amount": 2100000000,
+            "time": 1745536800000
+          },
+          {
+            "userId": "123456789012345678",
+            "username": "NguyenVanA",
+            "amount": 2150000000,
+            "time": 1745540400000
+          }
+        ]
+      }
+    ]
+  }

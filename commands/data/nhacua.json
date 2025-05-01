@@ -1,0 +1,57 @@
+[
+    {
+      "id": "prop001",
+      "name": "Chung cư mini Hà Nội",
+      "type": "Apartment",
+      "price": 500000000,
+      "rent_income": 2000000,
+      "level": 1,
+      "max_level": 3,
+      "upgrade_cost": 100000000,
+      "description": "Căn hộ nhỏ gọn tại trung tâm Hà Nội"
+    },
+    {
+      "id": "prop002",
+      "name": "Biệt thự Vinhomes",
+      "type": "Villa",
+      "price": 3000000000,
+      "rent_income": 10000000,
+      "level": 1,
+      "max_level": 5,
+      "upgrade_cost": 500000000,
+      "description": "Biệt thự sang trọng trong khu đô thị cao cấp"
+    },
+    {
+      "id": "prop003",
+      "name": "Nhà phố Hồ Chí Minh",
+      "type": "House",
+      "price": 1500000000,
+      "rent_income": 5000000,
+      "level": 1,
+      "max_level": 4,
+      "upgrade_cost": 250000000,
+      "description": "Nhà phố kinh doanh tại trung tâm Quận 1"
+    },
+    {
+      "id": "prop004",
+      "name": "Đất nền Đà Nẵng",
+      "type": "Land",
+      "price": 800000000,
+      "rent_income": 1000000,
+      "level": 1,
+      "max_level": 2,
+      "upgrade_cost": 200000000,
+      "description": "Đất nền ven biển Đà Nẵng, tiềm năng phát triển cao"
+    },
+    {
+      "id": "prop005",
+      "name": "Shophouse Phú Quốc",
+      "type": "Commercial",
+      "price": 2000000000,
+      "rent_income": 8000000,
+      "level": 1,
+      "max_level": 3,
+      "upgrade_cost": 400000000,
+      "description": "Cửa hàng mặt tiền trong khu du lịch"
+    }
+  ]

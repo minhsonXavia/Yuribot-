@@ -268,19 +268,19 @@ module.exports = {
             writeJSONFile(PLAYERS_PATH, players);
             
             await interaction.editReply({
-                content: `Welcome to the Real Estate system!\nYour account has been created with an initial balance of: ${formatMoney(player.cash)}.`,
+                content: `<a:Bill_Cipher:1359046457000333442> 𝐂𝐇𝐀̀𝐎 𝐌𝐔̛̀𝐍𝐆 𝐁𝐄́ 𝐈𝐔 𝐂𝐇𝐎̛𝐈 𝐘𝐔𝐑𝐈 𝐁𝐀̂́𝐓 Đ𝐎̣̂𝐍𝐆 𝐒𝐀̉𝐍🏩!\n𝐘𝐔𝐑𝐈 Đ𝐀̃ 𝐓𝐇𝐄̂𝐌 𝟏𝟎𝟎𝟎𝟎𝟎𝟎<:RainbowMoney:1367746954599333939>𝐕𝐀̀𝐎 𝐒𝐓𝐊 𝐑𝐎̀𝐈 𝐀́💸🏦: ${formatMoney(player.cash)}.`,
                 ephemeral: true
             });
         } else {
             // Check password
             if (player.password === password) {
                 await interaction.editReply({
-                    content: `Login successful! Current balance: ${formatMoney(player.cash)}`,
+                    content: `Đ𝐔́𝐍𝐆 𝐎̀𝐢𝐢𝐢! 𝐒𝐎̂́ 𝐃𝐔̛ 𝐇𝐈𝐄̣̂𝐍 𝐓𝐀̣𝐈🥬:: ${formatMoney(player.cash)}`,
                     ephemeral: true
                 });
             } else {
                 await interaction.editReply({
-                    content: `Incorrect password. Please try again.`,
+                    content: `Đ𝐢 𝐫𝐚 :<< 𝐤𝐨 𝐜𝐡𝐢̣𝐮 đ𝐮̛𝐨̛̣𝐜 đ𝐚̂𝐮 𝐬𝐚𝐢 𝐦𝐚̣̂𝐭 𝐤𝐡𝐚̂̉𝐮.`,
                     ephemeral: true
                 });
             }
@@ -295,7 +295,7 @@ module.exports = {
         // Get player information
         const player = getPlayer(userId);
         if (!player) {
-            return await interaction.editReply('You need to register first. Please use `/realestate register` to create an account.');
+            return await interaction.editReply('🦉Đ𝐚̆𝐧𝐠 𝐧𝐡𝐚̣̂𝐩 đ𝐢 𝐫𝐨̂̀𝐢 đ𝐚̂𝐮 𝐭𝐮̛, 𝐫𝐚́𝐜𝐡 𝐯𝐢𝐞̣̂𝐜 đ𝐚𝐧𝐠 𝐬𝐮̣𝐜 𝐜𝐮🌟 `/realestate register` Đ𝐄̂̉ 𝐓𝐀̣𝐎 𝐀𝐂𝐂.');
         }
         
         // Get property list
@@ -308,7 +308,7 @@ module.exports = {
         );
         
         if (!property) {
-            return await interaction.editReply(`Property with name or ID "${propertyQuery}" not found.`);
+            return await interaction.editReply(`𝗧𝗘̂𝗡 𝗛𝗢𝗔̣̆𝗖 𝗜𝗗 𝗡𝗛𝗔̀🏘️ "${propertyQuery}" not found.`);
         }
         
         // Check if player already owns this property
@@ -322,7 +322,7 @@ module.exports = {
         
         // Check if player has enough money
         if (player.cash < actualPrice) {
-            return await interaction.editReply(`You don't have enough money to buy "${property.name}". Current price: ${formatMoney(actualPrice)}, Your balance: ${formatMoney(player.cash)}`);
+            return await interaction.editReply(`𝗸𝗵𝗼̂𝗻𝗴 𝗰𝗼́ 𝘁𝗶𝗲̂̀𝗻 𝗰𝗼̀𝗻 đ𝗼̀𝗶 đ𝘂̉ đ𝗼̛̉𝗻 𝗺𝘂𝗮 𝗻𝗵𝗮̀ 𝘅𝗶̣𝗻💴 "${property.name}". 𝗚𝗶𝗮́ 𝗛𝗶𝗲̣̂𝗻 𝘁𝗮̣𝗶: ${formatMoney(actualPrice)}, Your balance: ${formatMoney(player.cash)}`);
         }
         
         // Process transaction
@@ -339,12 +339,12 @@ module.exports = {
         savePlayer(player);
         
         const embed = new EmbedBuilder()
-            .setTitle('🏠 Transaction Successful!')
-            .setDescription(`You successfully purchased "${property.name}"`)
+            .setTitle('🏠 𝐆𝐢𝐚𝐨 𝐝𝐢̣𝐜𝐡 𝐭𝐡𝐚̀𝐧𝐡 𝐜𝐨̂𝐧𝐠!')
+            .setDescription(`𝐁𝐚̣𝐧 đ𝐚̃ 𝐦𝐮𝐚 𝐭𝐡𝐚̀𝐧𝐡 𝐜𝐨̂𝐧𝐠 "${property.name}"`)
             .addFields(
-                { name: 'Purchase Price', value: formatMoney(actualPrice), inline: true },
-                { name: 'Remaining Balance', value: formatMoney(player.cash), inline: true },
-                { name: 'Rental Income', value: formatMoney(property.rent_income), inline: true }
+                { name: '𝐆𝐢́𝐚 𝐌𝐮𝐚🛒', value: formatMoney(actualPrice), inline: true },
+                { name: '𝐒𝐨̂́ 𝐝𝐮̛ 𝐜𝐨̀𝐧 𝐥𝐚̣𝐢😭', value: formatMoney(player.cash), inline: true },
+                { name: '𝐓𝐡𝐮 𝐧𝐡𝐚̣̂𝐩 𝐜𝐡𝐨 𝐭𝐡𝐮𝐞̂💞', value: formatMoney(property.rent_income), inline: true }
             )
             .setColor('#2ecc71')
             .setTimestamp();
@@ -360,12 +360,12 @@ module.exports = {
         // Get player information
         const player = getPlayer(userId);
         if (!player) {
-            return await interaction.editReply('You need to register first. Please use `/realestate register` to create an account.');
+            return await interaction.editReply('🦉Đ𝐚̆𝐧𝐠 𝐧𝐡𝐚̣̂𝐩 đ𝐢 𝐫𝐨̂̀𝐢 đ𝐚̂𝐮 𝐭𝐮̛, 𝐫𝐚́𝐜𝐡 𝐯𝐢𝐞̣̂𝐜 đ𝐚𝐧𝐠 𝐬𝐮̣𝐜 𝐜𝐮🌟 `/realestate register` Đ𝐄̂̉ 𝐓𝐀̣𝐎 𝐀𝐂𝐂..');
         }
         
         // Check if player has any properties
         if (!player.properties || player.properties.length === 0) {
-            return await interaction.editReply('You don\'t own any properties yet.');
+            return await interaction.editReply('Bé don\'t đéo có bất động sản nào.');
         }
         
         // Find property in player's portfolio
@@ -465,7 +465,7 @@ module.exports = {
                     const rentIncome = prop.rented ? fullProperty.rent_income * prop.level : 0;
                     totalIncome += rentIncome;
                     
-                    let status = prop.rented ? "🟢 Currently rented" : "🔴 Not rented";
+                    let status = prop.rented ? "🟢 𝐜𝐡𝐨 𝐭𝐡𝐮𝐞̂" : "🔴 đ𝐞́𝐨 𝐜𝐡𝐨 𝐭𝐡𝐮𝐞̂";
                     let profit = currentValue - prop.boughtPrice;
                     let profitPercent = Math.round(profit / prop.boughtPrice * 100);
                     let profitText = profit >= 0 ? 
@@ -475,11 +475,11 @@ module.exports = {
                     embed.addFields({
                         name: `${fullProperty.name} (Level ${prop.level}/${fullProperty.max_level})`,
                         value: [
-                            `💰 Purchase price: ${formatMoney(prop.boughtPrice)}`,
-                            `💵 Current value: ${formatMoney(currentValue)}`,
-                            `📈 Profit/Loss: ${profitText}`,
-                            `💸 Rental income: ${formatMoney(rentIncome)}/day`,
-                            `📊 Status: ${status}`
+                            `💰 𝐆𝐢𝐚́ 𝐦𝐮𝐚🛒: ${formatMoney(prop.boughtPrice)}`,
+                            `💵 𝐆𝐢𝐚́ 𝐭𝐫𝐢̣ 𝐡𝐢𝐞̣̂𝐧 𝐭𝐚̣𝐢: ${formatMoney(currentValue)}`,
+                            `📈 𝐋𝐀̃𝐈/𝐋𝐎̂̃ 𝐕𝐎̂́𝐍: ${profitText}`,
+                            `💸 𝐓𝐡𝐮 𝐧𝐡𝐚̣̂𝐩 𝐜𝐡𝐨 𝐭𝐡𝐮𝐞̂: ${formatMoney(rentIncome)}/day`,
+                            `📊 𝐓𝐑𝐀̣𝐍𝐆 𝐓𝐇𝐀́𝐈: ${status}`
                         ].join('\n'),
                         inline: false
                     });
@@ -487,8 +487,8 @@ module.exports = {
             }
             
             embed.addFields(
-                { name: 'Total Property Value', value: formatMoney(totalValue), inline: true },
-                { name: 'Total Income/Day', value: formatMoney(totalIncome), inline: true }
+                { name: 'SỐ LƯỢNG BẤT ĐỘNG SẢN Value', value: formatMoney(totalValue), inline: true },
+                { name: 'TỔNG THU NHẬP/NGÀY', value: formatMoney(totalIncome), inline: true }
             );
             
             return embed;

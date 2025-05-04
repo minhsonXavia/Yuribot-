@@ -1,8 +1,8 @@
 const { Events } = require('discord.js');
 const moment = require('moment-timezone');
 
-const ADMIN_ID = '1306552024568959016';
-const COOLDOWN_TIME = 30; // Giây chống spam log
+const ADMIN_ID = '1306552024568959016'; //nhớ thay id ở đây, nếu hiện thiếu pack thì npm i (tên pack nó hiện
+const COOLDOWN_TIME = 30; 
 let isConsoleDisabled = false;
 let num = 0;
 let maxLogs = 20;
